@@ -1,0 +1,493 @@
+.pageWrap {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(180deg,#f7fbff 0%, #ffffff 40%);
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: "Poppins", "Inter", sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 980px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 18px 50px rgba(13, 34, 64, 0.08);
+  border: 1px solid rgba(12,35,64,0.04);
+}
+
+.title {
+  margin: 0 0 6px;
+  font-size: 22px;
+  font-weight: 800;
+  color: #0b1630;
+}
+
+.subtitle {
+  margin: 0 0 18px;
+  color: #4b5563;
+  font-size: 0.98rem;
+}
+
+/* grid layout */
+.grid {
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px 20px;
+  margin-bottom: 18px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldFull {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: 600;
+  color: #234;
+  font-size: 0.86rem;
+  margin-bottom: 8px;
+}
+
+.inputError {
+  border-color: #ff6b6b !important;
+  box-shadow: 0 6px 20px rgba(255,107,107,0.06);
+}
+
+.err {
+  margin-top: 8px;
+  color: #d14343;
+  font-size: 0.85rem;
+}
+
+/* actions */
+.actions {
+  display: flex;
+  justify-content: center; /* center buttons horizontally */
+  align-items: center;
+  gap: 1rem; /* space between submit and reset */
+  margin-top: 2rem;
+}
+
+.primary {
+  appearance: none;
+  border: none;
+  background: linear-gradient(90deg,#2f9bff,#2b7fc8);
+  color: #fff;
+  padding: 0.75rem 0; /* larger button size */
+  border-radius: 10px;
+  font-weight: 700;
+  min-width: 80px;   
+  cursor: pointer;
+  box-shadow: 0 12px 32px rgba(47,155,255,0.18);
+  transition: transform .12s ease, box-shadow .18s ease;
+}
+
+.primary:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.primary:hover:not(:disabled) {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 50px rgba(47,155,255,0.26);
+}
+
+.ghost {
+  background: transparent;
+  border: 1px solid rgba(12,35,64,0.06);
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* messages */
+.msgSuccess {
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: linear-gradient(90deg,#e6ffef,#e6fff7);
+  color: #04663f;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.msgError {
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: linear-gradient(90deg,#fff2f2,#fff7f7);
+  color: #8b1d1d;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* responsive */
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+  .fieldFull { grid-column: auto; }
+  .card { padding: 20px; }
+}
+
+/* add at end of file */
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  background: rgba(6,12,26,0.45);
+  z-index: 1400;
+}
+
+.modalBox {
+  width: 420px;
+  max-width: calc(100% - 40px);
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 32px 90px rgba(2,12,32,0.36);
+}
+
+.modalIcon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background: linear-gradient(90deg,#6ee7b7,#34d399);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #053e2a;
+  font-size: 30px;
+  box-shadow: 0 12px 36px rgba(52,211,153,0.12);
+}
+
+.modalBox h4 {
+  margin: 6px 0 8px;
+  font-size: 18px;
+  color: #07202b;
+}
+.modalBox p {
+  margin: 0 0 14px;
+  color: #445;
+}
+
+.modalBtn {
+  background: linear-gradient(90deg,#2f9bff,#2b7fc8);
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 12px 36px rgba(47,155,255,0.16);
+}
+
+/* ensure message toast sits above modal if used */
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  background: rgba(6,12,26,0.45);
+  z-index: 1400;
+}
+
+.modalBox {
+  width: 420px;
+  max-width: calc(100% - 40px);
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 32px 90px rgba(2,12,32,0.36);
+}
+
+.modalIcon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background: linear-gradient(90deg,#6ee7b7,#34d399);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #053e2a;
+  font-size: 30px;
+  box-shadow: 0 12px 36px rgba(52,211,153,0.12);
+}
+
+.modalBox h4 {
+  margin: 6px 0 8px;
+  font-size: 18px;
+  color: #07202b;
+}
+.modalBox p {
+  margin: 0 0 14px;
+  color: #445;
+}
+
+.modalBtn {
+  background: linear-gradient(90deg,#2f9bff,#2b7fc8);
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 12px 36px rgba(47,155,255,0.16);
+}
+
+/* ensure message toast sits above modal if used */
+.msgSuccess, .msgError { z-index: 1500; }
+
+/* ...existing code... */
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  background: rgba(6,12,26,0.45);
+  z-index: 1400;
+}
+
+.modalBox {
+  width: 420px;
+  max-width: calc(100% - 40px);
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 32px 90px rgba(2,12,32,0.36);
+}
+
+.modalIcon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background: linear-gradient(90deg,#6ee7b7,#34d399);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #053e2a;
+  font-size: 30px;
+  box-shadow: 0 12px 36px rgba(52,211,153,0.12);
+}
+
+.modalBox h4 { margin: 6px 0 8px; font-size: 18px; color: #07202b; }
+.modalBox p { margin: 0 0 14px; color: #445; }
+
+.modalBtn {
+  background: linear-gradient(90deg,#2f9bff,#2b7fc8);
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 12px 36px rgba(47,155,255,0.16);
+}
+
+/* ensure inline messages (if present) are under modal */
+.msgSuccess, .msgError { z-index: 1300; }
+
+/* unify inputs and selects so dropdowns align with text inputs */
+.field input,
+.field select,
+.field textarea,
+.fieldFull input,
+.fieldFull select,
+.fieldFull textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  padding: 12px 14px;
+  height: 44px;               /* consistent height */
+  line-height: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(12,35,64,0.08);
+  background: #fff;
+  box-sizing: border-box;
+  font-size: 0.95rem;
+  color: #0b1630;
+}
+
+/* hide native IE/Edge arrow */
+.field select::-ms-expand { display: none; }
+
+/* add a small custom arrow for selects and reserve space on the right */
+.field select {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 20 20' fill='%236b7280'><path d='M5 7l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 12px) center;
+  background-size: 14px 14px;
+  padding-right: 38px; /* leave room for arrow */
+}
+
+/* ensure floating label positioning still works */
+.label { pointer-events: none; }
+/* if label overlaps, slightly reduce top on small screens */
+@media (max-width: 720px) {
+  .field input, .field select, .field textarea { height: 46px; padding: 12px; }
+}
+
+/* add at end of file (or merge into appropriate section) */
+
+/* Hero / centered title inside the card */
+
+/* small pill badge above title */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  background: linear-gradient(90deg, rgba(47,155,255,0.12), rgba(47,155,255,0.06));
+  color: #0b66d1;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  box-shadow: 0 6px 18px rgba(47,155,255,0.06);
+}
+
+/* gradient clipped title for a modern look */
+.heroTitle {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.05;
+  font-weight: 800;
+  color: #07202b;
+  background: linear-gradient(90deg, #1848ff, #2f9bff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* supporting lead text */
+.heroLead {
+  margin: 0;
+  color: #556;
+  font-size: 13.5px;
+  max-width: 640px;
+}
+
+/* subtle animated accent line under the hero */
+.heroAccent {
+  height: 6px;
+  width: 120px;
+  background: linear-gradient(90deg, rgba(47,155,255,0.18), rgba(47,155,255,0.08));
+  border-radius: 6px;
+  transform-origin: left;
+  margin-top: 6px;
+}
+
+/* responsive tweaks */
+@media (max-width: 720px) {
+  .heroInner { padding: 6px 4px; }
+  .heroTitle { font-size: 18px; }
+  .heroLead { font-size: 13px; }
+  .heroAccent { width: 88px; height: 5px; }
+}
+
+/* add at end of file (or merge into appropriate section) */
+
+/* Hero / centered title inside the card */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 12px 6px;
+  text-align: center;
+  width: 100%;
+}
+
+.heroInner {
+  max-width: 760px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* small pill badge above title */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  background: linear-gradient(90deg, rgba(47,155,255,0.12), rgba(47,155,255,0.06));
+  color: #0b66d1;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  box-shadow: 0 6px 18px rgba(47,155,255,0.06);
+}
+
+/* gradient clipped title for a modern look */
+.heroTitle {
+  margin: 0;
+  font-size: 22px;
+  line-height: 2.05;
+  font-weight: 800;
+  color: #07202b;
+  background: linear-gradient(90deg, #1848ff, #2f9bff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* supporting lead text */
+.heroLead {
+  margin: 0;
+  color: #556;
+  font-size: 13.5px;
+  max-width: 640px;
+}
+
+/* subtle animated accent line under the hero */
+.heroAccent {
+  height: 6px;
+  width: 120px;
+  background: linear-gradient(90deg, rgba(47,155,255,0.18), rgba(47,155,255,0.08));
+  border-radius: 6px;
+  transform-origin: left;
+  margin-top: 6px;
+}
+
+/* responsive tweaks */
+@media (max-width: 720px) {
+  .heroInner { padding: 6px 4px; }
+  .heroTitle { font-size: 18px; }
+  .heroLead { font-size: 13px; }
+  .heroAccent { width: 88px; height: 5px; }
+}
+
+.split {
+  display: grid;
+  gap: 40px;
+  align-items: center;
+  width: 89%;
+  padding: 36px 24px;
+  box-sizing: border-box;
+}

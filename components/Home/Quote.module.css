@@ -1,0 +1,92 @@
+.text-pop{
+  font-family: "Poppins", sans-serif;
+}
+
+.text-ral{
+  font-family: "Raleway", sans-serif;
+}
+
+.quoteContainer {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quoteHeading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding-left: 10%;
+  font-family: "Raleway", sans-serif;
+}
+
+.boldText {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.enquireButton {
+  padding: 10px 20px;
+  margin-right: 20%;
+  margin-top: 2%;
+  background-color: #0083B9;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px; /* Rounded corners for button */
+  text-decoration: none; /* Remove default link underline */
+  text-align: center; /* Center text within button */
+  border-radius: 40px;
+}
+
+.enquireButton:hover {
+  background-color: rgb(255, 255, 255);
+  color:#0083B9;
+  border: 1px solid;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+/* styles.module.css */
+
+@media only screen and (max-width: 320px) {
+  .quoteContainer {
+    padding: 10px;
+    text-align: center; /* Center text for mobile */
+  }
+
+  .quoteHeading {
+    font-size: 1.5rem; /* Smaller font size */
+  }
+
+  .enquireButton {
+    padding: 10px 20px; /* Adjust button size */
+    font-size: 1rem; /* Ensure button text is readable */
+  }
+
+  .imageResponsive {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .faqContainer {
+    flex-direction: column; /* Stack columns */
+  }
+
+  .faqItem {
+    margin-bottom: 10px; /* Spacing between FAQ items */
+  }
+}
+

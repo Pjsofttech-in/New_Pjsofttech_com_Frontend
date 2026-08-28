@@ -1,0 +1,94 @@
+/* Container for the entire form */
+.next-page-container {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  padding-top: 80px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+/* Typography for the page title */
+.next-page-container .title {
+  text-align: left;
+  color: #6a1b9a;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Divider between sections */
+.next-page-container .divider {
+  margin: 20px 0;
+}
+
+/* Grid container for form items */
+.next-page-container .form-grid {
+  margin-bottom: 20px;
+}
+
+/* Style for each form field */
+.next-page-container .form-field {
+  margin-bottom: 16px;
+}
+
+/* TextField read-only style */
+.next-page-container .read-only-field .MuiInputBase-root {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Read-only text fields */
+.next-page-container .read-only-field .MuiInputBase-input {
+  color: #333;
+  font-weight: 400;
+}
+
+/* Button to go back */
+.next-page-container .go-back-btn {
+  display: block;
+  margin: 20px auto;
+  background-color: #00649f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.next-page-container .go-back-btn:hover {
+  background-color: #004d6f;
+}
+
+.next-page-container .go-back-btn:active {
+  background-color: #00375b;
+}
+
+/* Error message styles */
+.next-page-container .error-message {
+  text-align: center;
+  color: #d32f2f;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  .next-page-container .title {
+    font-size: 1.5rem;
+  }
+
+  .next-page-container .form-grid {
+    display: block;
+  }
+
+  .next-page-container .form-field {
+    margin-bottom: 10px;
+  }
+}
+
+.inputLables {
+  text-align: left;
+}

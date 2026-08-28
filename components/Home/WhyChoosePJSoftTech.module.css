@@ -1,0 +1,165 @@
+
+
+.whyChooseSection {
+  background-color: #fff;
+  padding: 2rem 0;
+
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #0083B9;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  background:#fff;
+  padding-top: 20px; 
+  font-family: "Poppins", sans-serif;
+}
+
+.heading:hover{
+  color: black;
+}
+.card {
+  border: solid 1px #fbfafa;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.hr{
+  color: #fff;
+}
+
+.cardBody {
+  background: linear-gradient(to right,  rgb(38,157,215), rgb(51, 139, 176));
+  border-radius: 0.25rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.cardBody:hover {
+ 
+  
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: rgb(252, 249, 249);
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center; 
+}
+
+.cardText {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Raleway", sans-serif; 
+  text-align: center;
+}
+
+
+
+
+
+
+.section {
+  background: linear-gradient(to bottom, #f9fbff, #ffffff);
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 60px;
+}
+
+.heading span {
+  color: #007bff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  border-color: #007bff;
+}
+
+.iconWrapper {
+  background: #eef4ff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: background 0.3s ease;
+}
+
+.card:hover .iconWrapper {
+  background: #007bff;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.card:hover .icon {
+  color: #ffffff;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.cardText {
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .iconWrapper {
+    width: 50px;
+    height: 50px;
+  }
+}

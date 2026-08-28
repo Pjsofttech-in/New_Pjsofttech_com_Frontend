@@ -1,0 +1,710 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.text-pop {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+.navbar-nav {
+  padding-left: 62px;
+}
+
+.navbar-custom {
+  background-color: rgb(38, 157, 215);
+  padding: 0.25rem 0.90rem;
+  width: 100%;
+  z-index: 1030;
+
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .nav-dropdown .dropdown-item {
+  color: black;
+  padding: 0.25rem 0.85rem;
+  margin-left: 50px;
+  text-align: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+
+.navbar-custom .nav-link {
+  padding: 0.5rem 0.0rem;
+  margin: 0 0.1rem;
+  color: white;
+  /* Adjust link color */
+}
+
+/* Make Home to Contact Us text color white */
+.navbar-custom .nav-link {
+  color: white !important;
+}
+
+/* Optional: Change hover color for links */
+.navbar-custom .nav-link:hover {
+  color: #ffff29 !important;
+  /* Light grey on hover */
+}
+
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-dropdown .dropdown-item:hover {
+  color: linear-gradient(to right, rgb(0, 131, 185), rgb(51, 139, 176));
+}
+
+.company-name {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+.right-align-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.Btn1 {
+  border-radius: 0px;
+  background: rgb(0, 131, 185);
+  border: rgb(244, 247, 247) 2px solid;
+  font-size: 13px;
+  margin-right: 0px;
+  width: 100px;
+  height: 45px;
+  text-align: center;
+  padding-top: 12px;
+
+}
+
+.Btn1:hover {
+  background-color: rgb(255, 255, 255);
+  color: #0083B9;
+  border: 1px solid;
+}
+
+.Btn {
+  border-radius: 0px;
+  background: rgb(0, 131, 185);
+  border: rgb(244, 247, 247) 2px solid;
+  font-size: 14px;
+  margin-left: 0px;
+  width: 100px;
+  height: 45px;
+  text-align: center;
+}
+
+.Btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: #0083B9;
+  border: 1px solid;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  /* Space between Free Demo and Log In buttons */
+  align-items: center;
+}
+
+.Btn1,
+.Btn {
+  margin: 0;
+  /* Remove any default margins */
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+
+
+.navbar-custom .navbar-brand img {
+  width: 50px;
+  height: 40px;
+}
+
+.navbar-custom .navbar-toggler {
+  padding: 0.25rem 0.5rem;
+}
+
+
+.navbar-custom .dropdown-menu {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .dropdown-item {
+  color: black;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-custom .dropdown-item:hover {
+  background-color: #0083B9;
+  color: #131111;
+}
+
+.dropdown-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+
+.navbar-custom .multi-column-dropdown .dropdown-menu-multi-column {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  width: 80vw;
+  /* Make the dropdown span most of the viewport width */
+  left: -300px;
+  /* Adjust the position to start from the left side */
+  right: 0;
+  /* Ensure it doesn't overflow on the right side */
+  position: absolute;
+  background-color: #fff;
+  /* Ensure the background is white */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add shadow for better visibility */
+}
+
+.navbar-custom .multi-column-dropdown .dropdown-item-container {
+  width: 33.33%;
+  /* Adjust the width to make three columns */
+  box-sizing: border-box;
+}
+
+.navbar-custom .multi-column-dropdown .dropdown-item-container .dropdown-logo {
+  width: 30px;
+  height: 20px;
+}
+
+.navbar-custom .multi-column-dropdown .dropdown-menu-multi-column:hover {
+  display: flex;
+}
+
+
+/* Hide buttons outside of the navbar collapse on small screens */
+@media (max-width: 991px) {
+  .button-container {
+    display: none;
+  }
+
+  /* Adjust the size and layout of the buttons inside the collapse */
+  .d-lg-none .Btn1,
+  .d-lg-none .Btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.5rem;
+    width: 100%;
+    /* Full width for buttons in mobile view */
+    margin-bottom: 0.5rem;
+    /* Add some spacing between buttons */
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  /* Adjust dropdown menu for medium screens */
+  .navbar-custom .multi-column-dropdown .dropdown-item-container {
+    width: 100%;
+    /* Set width to 100% for single column */
+  }
+
+  .navbar-custom .multi-column-dropdown .dropdown-menu-multi-column {
+    width: auto;
+    /* Adjust width as needed */
+    left: 0;
+    /* Ensure dropdown starts from left */
+  }
+
+  /* Adjust dropdown menu for mobile screens */
+  .mega-menu .dropdown-menu {
+    width: 100%;
+    /* Full width for mobile */
+    left: 0;
+    /* Align to the left */
+    top: 100%;
+    /* Position below the navbar */
+    padding: 1rem;
+    border: none;
+    box-shadow: none;
+    display: block !important;
+    /* Ensure the dropdown is visible */
+  }
+
+  .mega-menu .dropdown-item {
+    padding: 0.5rem 1rem;
+    white-space: normal;
+    text-align: left;
+    /* Align text to the left */
+  }
+
+  .mega-menu .dropdown-menu>.container {
+    max-width: 100%;
+    /* Full width for mobile */
+  }
+
+  .mega-menu .dropdown-menu .row {
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+
+  .mega-menu .dropdown-menu .col {
+    width: 100%;
+    /* Full width for each column */
+    margin-bottom: 1rem;
+    /* Add spacing between items */
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-custom .company-name {
+    display: block;
+    /* Ensure company name is visible */
+    font-size: 1.1em;
+  }
+
+  .navbar-custom .navbar-toggler {
+    padding: 0.5rem;
+  }
+
+  .navbar-custom .nav-link,
+  .navbar-custom .nav-dropdown .dropdown-item {
+    padding: 0.25rem 0.5rem;
+  }
+
+  .navbar-custom .nav-dropdown .dropdown-menu {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-custom .dropdown-item {
+    color: black;
+    padding: 0.25rem 0.5rem;
+  }
+
+  .navbar-custom .dropdown-item:hover {
+    background-color: linear-gradient(to right, rgb(0, 131, 185), rgb(51, 139, 176)) !important;
+    color: #131111;
+  }
+
+  /* Adjust dropdown menu for small screens */
+  .navbar-custom .multi-column-dropdown .dropdown-item-container {
+    width: 100%;
+    /* Set width to 100% for single column */
+  }
+
+  .navbar-custom .multi-column-dropdown .dropdown-item-container .dropdown-logo {
+    /* Adjust logo styles if needed */
+  }
+
+  .navbar-custom .multi-column-dropdown .dropdown-menu-multi-column {
+    width: auto;
+    /* Adjust width as needed */
+    left: 0;
+    /* Ensure dropdown starts from left */
+  }
+}
+
+
+.navbar-custom .home-link {
+  color: white !important;
+}
+
+.navbar-custom .services-link .nav-link {
+  color: white !important;
+}
+
+@media (max-width: 360px) {
+  .navbar-custom .Btn {
+    display: block;
+    /* Stack the buttons vertically */
+    width: 100%;
+    /* Make the buttons take full width */
+    margin-bottom: 10px;
+    /* Add some space between the buttons */
+  }
+
+  .navbar-custom .navbar-collapse {
+    text-align: center;
+    /* Center the buttons in mobile view */
+
+  }
+
+  .navbar-custom .nav-link {
+    text-align: center;
+    /* Ensure all links are centered */
+
+  }
+}
+
+
+/* Media query for 1024px and below */
+@media (max-width: 1024px) {
+
+  /* Navbar container adjustments */
+  .navbar-custom {
+    padding: 4px px;
+  }
+
+  /* Adjust brand logo size */
+  .navbar-brand img {
+    width: 50px;
+  }
+
+  /* Adjust company name font size */
+  .company-name {
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+
+  /* Navbar links: stack vertically */
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  /* Adjust font size for nav links */
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+    padding: 5px 0;
+  }
+
+  /* Ensure dropdown menu and items adjust properly */
+  .dropdown-menu-multi-column {
+    width: 100%;
+  }
+
+  /* Free Demo and Login buttons */
+  .navbar-nav .nav-link .Btn {
+    width: 100%;
+    /* Full width */
+    font-size: 0.9rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  /* Make sure the buttons stay within the navbar */
+  .navbar-nav .nav-link {
+    display: block;
+    width: 100%;
+    /* Ensure full width for buttons */
+  }
+
+  /* Ensure collapse container is centered and stacked */
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+
+  /* Navbar toggle button for 1024px */
+  .navbar-toggler {
+    font-size: 1.2rem;
+    padding: 8px;
+  }
+
+  /* Adjust button padding */
+  .Btn {
+    padding: 10px 15px;
+  }
+}
+
+
+/* Navbar.css */
+.mega-menu .dropdown-menu {
+  width: 1000%;
+  left: -212%;
+  top: 134%;
+  padding: 1rem;
+  border: none;
+  box-shadow: 20px 20px 50px #f7eae9f9 (0, 0, 0, 8.8);
+}
+
+.mega-menu .dropdown-item {
+  padding: 0.5rem 1rem;
+  white-space: normal;
+}
+
+.mega-menu .dropdown-menu>.container {
+  max-width: 1400px;
+  /* Increase the max-width to make the mega menu wider */
+}
+
+/* Additional styles for the mega menu */
+.navbar-custom .multi-column-dropdown .dropdown-menu-multi-column {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  width: 90vw;
+  /* Increase the width to 90% of the viewport width */
+  left: -300px;
+  /* Adjust the position to start from the left side */
+  right: 0;
+  /* Ensure it doesn't overflow on the right side */
+  position: absolute;
+  background-color: #fff;
+  /* Ensure the background is white */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add shadow for better visibility */
+}
+
+.navbar-custom .multi-column-dropdown .dropdown-item-container {
+  width: 33.33%;
+  /* Adjust the width to make three columns */
+  box-sizing: border-box;
+}
+
+.navbar-custom .multi-column-dropdown .dropdown-item-container .dropdown-logo {
+  width: 30px;
+  height: 20px;
+}
+
+.navbar-custom .multi-column-dropdown .dropdown-menu-multi-column:hover {
+  display: flex;
+}
+
+/* Hide buttons outside of the navbar collapse on small screens */
+@media (max-width: 991px) {
+  .button-container {
+    display: none;
+  }
+
+  /* Adjust the size and layout of the buttons inside the collapse */
+  .d-lg-none .Btn1,
+  .d-lg-none .Btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.5rem;
+    width: 100%;
+    /* Full width for buttons in mobile view */
+    margin-bottom: 0.5rem;
+    /* Add some spacing between buttons */
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* Adjust dropdown menu for medium screens */
+  .navbar-custom .multi-column-dropdown .dropdown-item-container {
+    width: 100%;
+    /* Set width to 100% for single column */
+  }
+
+  .navbar-custom .multi-column-dropdown .dropdown-menu-multi-column {
+    width: auto;
+    /* Adjust width as needed */
+    left: 0;
+    /* Ensure dropdown starts from left */
+  }
+
+  /* Adjust dropdown menu for mobile screens */
+  .mega-menu .dropdown-menu {
+    width: 100%;
+    /* Full width for mobile */
+    left: 0;
+    /* Align to the left */
+    top: 100%;
+    /* Position below the navbar */
+    padding: 1rem;
+    border: none;
+    box-shadow: none;
+    display: block !important;
+    /* Ensure the dropdown is visible */
+  }
+
+  .mega-menu .dropdown-item {
+    padding: 0.5rem 1rem;
+    white-space: normal;
+    text-align: left;
+    /* Align text to the left */
+  }
+
+  .mega-menu .dropdown-menu>.container {
+    max-width: 100%;
+    /* Full width for mobile */
+  }
+
+  .mega-menu .dropdown-menu .row {
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+
+  .mega-menu .dropdown-menu .col {
+    width: 100%;
+    /* Full width for each column */
+    margin-bottom: 1rem;
+    /* Add spacing between items */
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-custom .company-name {
+    display: block;
+    /* Ensure company name is visible */
+    font-size: 1.1em;
+  }
+
+  .navbar-custom .navbar-toggler {
+    padding: 0.5rem;
+  }
+
+  .navbar-custom .nav-link,
+  .navbar-custom .nav-dropdown .dropdown-item {
+    padding: 0.25rem 0.5rem;
+  }
+
+  .navbar-custom .nav-dropdown .dropdown-menu {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-custom .dropdown-item {
+    color: black;
+    padding: 0.25rem 0.5rem;
+  }
+
+  .navbar-custom .dropdown-item:hover {
+    background-color: linear-gradient(to right, rgb(0, 131, 185), rgb(51, 139, 176)) !important;
+    color: #131111;
+  }
+
+  /* Adjust dropdown menu for small screens */
+  .navbar-custom .multi-column-dropdown .dropdown-item-container {
+    width: 100%;
+    /* Set width to 100% for single column */
+  }
+
+  .navbar-custom .multi-column-dropdown .dropdown-item-container .dropdown-logo {
+    /* Adjust logo styles if needed */
+  }
+
+  .navbar-custom .multi-column-dropdown .dropdown-menu-multi-column {
+    width: auto;
+    /* Adjust width as needed */
+    left: 0;
+    /* Ensure dropdown starts from left */
+  }
+}
+
+.navbar-custom .home-link {
+  color: white !important;
+}
+
+.navbar-custom .services-link .nav-link {
+  color: white !important;
+}
+
+@media (max-width: 360px) {
+  .navbar-custom .Btn {
+    display: block;
+    /* Stack the buttons vertically */
+    width: 100%;
+    /* Make the buttons take full width */
+    margin-bottom: 10px;
+    /* Add some space between the buttons */
+  }
+
+  .navbar-custom .navbar-collapse {
+    text-align: center;
+    /* Center the buttons in mobile view */
+  }
+
+  .navbar-custom .nav-link {
+    text-align: center;
+    /* Ensure all links are centered */
+  }
+}
+
+/* Media query for 1024px and below */
+@media (max-width: 1024px) {
+
+  /* Navbar container adjustments */
+  .navbar-custom {
+    padding: 4px px;
+  }
+
+  /* Adjust brand logo size */
+  .navbar-brand img {
+    width: 50px;
+  }
+
+  /* Adjust company name font size */
+  .company-name {
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+
+  /* Navbar links: stack vertically */
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust font size for nav links */
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+    padding: 5px 0;
+  }
+
+  /* Ensure dropdown menu and items adjust properly */
+  .dropdown-menu-multi-column {
+    width: 100%;
+  }
+
+  /* Free Demo and Login buttons */
+  .navbar-nav .nav-link .Btn {
+    width: 100%;
+    /* Full width */
+    font-size: 0.9rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  /* Make sure the buttons stay within the navbar */
+  .navbar-nav .nav-link {
+    display: block;
+    width: 100%;
+    /* Ensure full width for buttons */
+  }
+
+  /* Ensure collapse container is centered and stacked */
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Navbar toggle button for 1024px */
+  .navbar-toggler {
+    font-size: 1.2rem;
+    padding: 8px;
+  }
+
+  /* Adjust button padding */
+  .Btn {
+    padding: 10px 15px;
+  }
+}

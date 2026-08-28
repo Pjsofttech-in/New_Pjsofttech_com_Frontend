@@ -1,0 +1,58 @@
+
+.font-pop{
+   font-family: "Poppins", sans-serif;
+}
+
+.font-ral{
+  font-family: "Raleway", sans-serif;
+}
+
+.testimonials {
+  margin-top: 40px; /* Adjust the value as needed */
+  margin-bottom: 5%;
+  
+}
+
+.Card {
+  margin-top: 60px;
+}
+
+.testimonial-card {
+  border: 2px solid #000;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Make card take the full height of the grid item */
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
+
+.card-media {
+  max-height: 300px; /* Adjust the maximum height of the image */
+  max-height: 320px;
+  width: 100%; /* Ensure the image takes full width of its container */
+  object-fit: cover; /* Ensure the image covers the entire space without stretching */
+}
+
+.card-content {
+  flex-grow: 1; /* Allow content to grow and fill the remaining space */
+  text-align: left;
+}
+
+.card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  
+}
+
+.card-subtitle {
+  color: gray;
+  margin-top: 8px;
+}
+
+.card-description {
+  margin-top: 12px;
+  font-size: 1em;
+}

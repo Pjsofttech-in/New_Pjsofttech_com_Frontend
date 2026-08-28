@@ -1,0 +1,219 @@
+
+
+
+  @import url("https://fonts.googleapis.com/css?family=Roboto:300,700");
+  
+  html {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+  .section-cta {
+    padding: 5rem 0 7rem;
+    @media (max-width: 768px) {
+      padding: 2rem 0 3rem;
+    }
+    .cta-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 980px;
+      margin: 0 auto;
+      @media (max-width: 768px) {
+        display: block;
+      }
+    }
+    &.cta-invert .cta-container {
+      flex-direction: row-reverse;
+    }
+    .cta-desc-content,
+    .cta-btn-content {
+      display: inline-block;
+      text-align: center;
+      padding: 1rem;
+      @media (max-width: 768px) {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 70%;
+      }
+      @media (max-width: 480px) {
+        width: 100%;
+      }
+    }
+    .cta-desc-content {
+      position: relative;
+    }
+    .cta-icon {
+      color: rgba(#000, 0.04);
+      font-size: 18rem;
+      top: -1.2rem;
+      left: 0;
+      position: absolute;
+      @media (max-width: 768px) {
+        font-size: 14rem;
+        left: 5rem;
+      }
+      @media (max-width: 768px) {
+        left: 20px;
+      }
+    }
+    .cta-title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #5b2000;
+      @media (max-width: 480px) {
+        font-size: 1.6rem;
+      }
+    }
+    .cta-desc {
+      color: #666;
+      font-size: 1.2rem;
+      line-height: 1.4;
+      margin-top: 2rem;
+      font-weight: 300;
+      @media (max-width: 340px) {
+        font-size: 1rem;
+      }
+    }  
+    .cta-btn {
+      height: 150px;
+      display: block;
+      border-radius: 60px;
+      line-height: 70px;
+      font-weight: bold;  
+  top: 15%;
+  left: 70%;
+  font-family: "Poppins", sans-serif;
+  background-color: #ff3500;
+  color: white;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+      
+  .cta-btn:hover {
+    background-color: white;
+    color: #ff3500;
+    border: 1px solid #ff3500;
+  }
+
+
+      @media (max-width: 768px) {
+        font-size: 1.2rem;
+        line-height: 60px;
+        width: 240px;
+        margin: 0 auto;
+      }
+    }
+    .cta-label {
+      color: #777;
+      display: block;
+      font-size: 12px;
+      margin-top: 0.3rem;
+    }
+  
+  
+  
+  .cta-whatsapp {
+    background: rgba(#000, 0.01);
+    .cta-btn {
+      background-color: #65bc54;
+    }
+}
+  .cta-add-to-cart {
+    .cta-desc-content {
+      display: flex;
+      @media(max-width: 768px) {
+        display: block;
+      }
+    }
+    .cta-title {
+      color: #666;
+    }
+    .cta-icon {
+      font-size: 12rem;
+      right: 0;
+    }
+    .cta-btn {
+        background-color:  rgb(252, 74, 26);
+      border-radius: 5px;
+      border: 1px solid rgb(2, 15, 31) ;
+      width: 150px;
+      height: 70px;
+    }
+  }
+
+  
+  
+  
+  .cta-ebook {
+    background: rgba(#000, 0.01);
+    form {
+      border-radius: 40px;
+      box-shadow: 0 0 40px rgba(#000, 0.1);
+      display: flex;
+      background: #fff;
+      position: relative;
+      z-index: 10;
+    }
+    .email-field {
+      background: transparent;
+      border: 0;
+      border-radius: 40px;
+      columns: #000;
+      font-size: 1.4rem;
+      padding: 1.6rem 2rem;
+      width: 65%;
+      &:focus::placeholder {
+        color: #000;
+      };
+      @media(max-width: 640px) {
+        font-size: 1.2rem;
+      }
+    }
+    .btn-submit {
+      background: teal;
+      border: 0;
+      border-radius: 40px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 1.4rem;
+      padding: 1rem 0.5rem;
+      width: 35%;
+    }
+    .cta-icon {
+      color: green;
+      left: -100px;
+      top: 25px;
+      opacity: 0.35;
+      z-index: 1;
+      @media(max-width: 768px) {
+        left: -50px;
+        top: 45px;
+      }
+      @media(max-width: 640px) {
+        font-size: 8rem;
+        left: 0;
+        top: 20px;
+      }
+      @media(max-width: 340px) {
+        font-size: 5rem;
+        top: 25px;
+      }
+    }
+    ::placeholder {
+      color: #999;
+    }
+    @media(max-width: 640px) {
+      .btn-submit-text {
+        display: none;
+      }
+    }
+  }
+
+  

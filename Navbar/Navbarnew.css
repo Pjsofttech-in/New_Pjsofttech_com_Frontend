@@ -1,0 +1,133 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.text-pop {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+.navbar-nav {
+  padding-left: 62px;
+}
+
+.navbar-custom {
+  background-color: red !important;
+  padding: 0.25rem 0.9rem;
+  width: 120%;
+  z-index: 1030;
+}
+
+.company-name {
+  font-size: 2rem;
+  color: white;
+ 
+}
+
+.Btn1 {
+  border-radius: 0px;
+  /* background: rgb(0,131,185); */
+  background-color: rgb(0, 131, 185) !important;
+  border: rgb(244, 247, 247) 2px solid !important;
+  font-size: 13px !important;
+  margin-right: 0px;
+  width: 100px;
+  height: 45px;
+  text-align: center;
+  padding-top: 12px;
+  gap: 10px !important;
+}
+
+.Btn1:hover {
+  background-color: rgb(255, 255, 255);
+  color: #0083b9;
+  border: 1px solid;
+  color: white;
+}
+.button-container {
+  align-items: center !important;
+  display: flex !important;
+  gap: 120px !important;
+}
+
+.mega-menu .dropdown-menu {
+  width: 1180%;
+  margin-left: -146%;
+  top: 134%;
+  padding: 1rem;
+  /* border: 2px solid red; */
+  box-shadow: 80px 80px 80px #f7eae9f9 (0, 0, 0, 8.8);
+  margin-top: 15px;
+}
+
+.mega-menu .dropdown-item:hover {
+  background-color: rgb(
+    204,
+    230,
+    240
+  ) !important; /* lighter shade of rgb(0,131,185) */
+}
+
+.company-menu .dropdown-menu {
+  margin-top: 12px; /* Adjust the space as needed */
+  background-color: white; /* or any bg you want */
+  border: none;
+  padding: 10;
+  margin-left: -46%;
+
+}
+
+.company-menu .dropdown-item:hover {
+  background-color: rgb(
+    204,
+    230,
+    240
+  ) !important; 
+  color: black; 
+}
+
+
+/* Apply red background to dropdown menu */
+.custom-dropdown .dropdown-menu .dropdown-item {
+  color: black;
+}
+
+/* Optional: override item hover style for better contrast */
+.custom-dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: white;
+}
+
+.dropdown-item-with-icon {
+  display: flex !important;
+  align-items: center;
+  gap: 14px;
+  padding: 9px 18px !important;
+  border-radius: 8px !important;
+  font-size: 0.9rem !important;
+  font-weight: 500;
+  color: #222 !important;
+  background: transparent !important;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s, transform 0.18s;
+  box-shadow: none !important;
+}
+.dropdown-item-with-icon:hover {
+  background: linear-gradient(90deg, #e3f6ff 0%, #f0faff 100%) !important;
+  color: #0083b9 !important;
+  box-shadow: 0 2px 8px rgba(0,131,185,0.08) !important;
+  transform: translateY(-2px) scale(1.03);
+}
+.dropdown-icon {
+  font-size: 1.5rem;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+}
+.tilt-icon:hover {
+  transform: rotate(6deg) scale(1.1);
+}
+

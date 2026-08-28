@@ -1,0 +1,153 @@
+/* Plans.css */
+.plans-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.plans-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+.plan-card {
+  flex: 1 1 calc(25% - 20px);
+ 
+  background: linear-gradient(135deg, hsl(50, 70%, 70%), hsl(40, 60%, 50%));
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.8s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.plan-card h3 {
+  font-size: 2rem;
+  color: black;
+}
+
+.plan-card h2 {
+ 
+  color: black;
+}
+
+.plan-card h4 {
+  
+  color: black;
+}
+
+.plan-card p {
+  font-size: 15px;
+  margin: 10px 0;
+  color: black;
+  text-align: left;
+}
+
+.plan-card ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: black;
+  margin: 0;
+}
+
+.plan-card li {
+  margin-bottom: 5px;
+  font-size: 15px;
+  text-align: left;
+  color: black;
+}
+
+.plan-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 20px rgba(255, 193, 7, 0.6); /* Warm golden glow */
+  border: 1px solid hsl(45, 80%, 55%); /* Brighter gold border */
+}
+
+.included-feature {
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.excluded-feature {
+  color: red;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.icon {
+  margin-right: 8px;
+  font-size:"small";
+}
+
+.dash-icon {
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.toggle-details-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.toggle-details-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .plan-card {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .plan-card {
+    flex: 1 1 100%;
+  }
+
+  .toggle-details-button {
+    width: 100%;
+  }
+}
+
+
+.sub-feature-list {
+  margin-top: 5px;
+  padding-left: 50px;
+  list-style: disc;
+  color: white;
+
+}
+
+.details-button {
+  background-color:rgb(38, 157, 215);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.details-button:hover {
+  background-color:rgb(38, 157, 215);
+  transform: scale(1.05);
+ 
+}

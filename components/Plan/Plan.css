@@ -1,0 +1,10 @@
+
+.heading {
+    margin-top: -30px;
+    color: rgb(0,131,185);
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 10px;
+    font-weight: 700; /* Make the heading bold */
+    text-align: center; /* Center the heading */
+    
+  }

@@ -1,0 +1,93 @@
+/* FAQ.module.css */
+.faqContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+}
+
+.faqItem {
+  margin-bottom: 15px;
+}
+
+.question {
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #269DD7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.toggleIcon {
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.answer {
+  padding: 10px;
+  margin-top: 10px;
+  border-left: 3px solid #0083B9;
+  background: linear-gradient(to right, rgb(38,157,215 ), rgb(51, 139, 176));
+  border-radius: 5px;
+  color: white;
+}
+
+.centeredImageContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.faq_img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+/* Home.module.css */
+@media only screen and (max-width: 320px) {
+  .cardsRow {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .imageResponsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .testimonials {
+    font-size: 1.5rem; /* Adjust font size */
+  }
+
+  .faqContainer {
+    flex-direction: column; /* Stack columns */
+  }
+
+  .column {
+    width: 100%; /* Full width for mobile */
+    margin-bottom: 20px; /* Space between columns */
+  }
+
+  .faq_img {
+    width: 100%; /* Responsive image */
+    height: auto;
+  }
+
+  .centerButton {
+    width: 100%; /* Full width button */
+    padding: 10px;
+  }
+}

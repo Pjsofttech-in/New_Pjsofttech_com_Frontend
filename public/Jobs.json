@@ -1,0 +1,53 @@
+[
+    {
+      "title": "Data Analyst",
+      "posts": 5,
+      "salary": "10,000 - 15,000",
+      "experience": "0-2 years",
+      "skills": "Technical skills, Problem Solving Skills, and Soft Skills",
+      "location": "Dadar",
+      "description": "Data Analysts",
+      "responsibilities": "demo of new jobs"
+    },
+    {
+      "title": "Full Stack Developer",
+      "posts": 25,
+      "salary": "15,000 - 25,000",
+      "experience": "2-4 years",
+      "skills": "Technical skills, Problem Solving Skills, and Soft Skills",
+      "location": "Mumbra"
+    },
+    {
+      "title": "System Artitech",
+      "posts": 15,
+      "salary": "20,000 - 30,000",
+      "experience": "4-6 years",
+      "skills": "Technical skills, Problem Solving Skills, and Soft Skills",
+      "location": "Andheri"
+    },
+    {
+      "title": "Big Data Engineer",
+      "posts": 2,
+      "salary": "25,000 - 37,000",
+      "experience": "5-10 years",
+      "skills": "Technical skills, Problem Solving Skills, and Soft Skills",
+      "location": "Vasai"
+    },
+    {
+      "title": "IOT Soltions Artitech",
+      "posts": 8,
+      "salary": "10,000 - 25,000",
+      "experience": "0-2 years",
+      "skills": "Technical skills, Problem Solving Skills, and Soft Skills",
+      "location": "Mira Road"
+    },
+    {
+      "title": "Cloud Engineer",
+      "posts": 10,
+      "salary": "25,000 - 40,000",
+      "experience": "6-10 years",
+      "skills": "Technical skills, Problem Solving Skills, and Soft Skills",
+      "location": "Mira Bhayandar"
+    }
+  ]
+  

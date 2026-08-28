@@ -1,0 +1,1891 @@
+
+{
+  "data":
+[
+  {
+    "QA": [
+      {
+        "questions": [
+          "What is PJ Softtech?",
+          "What type of company is PJ Softtech?"
+        ],
+        "answer": "PJ Softtech is a technology company specializing in software development and IT consulting."
+      },
+      {
+        "questions": [
+          "hi?",
+          "How can I get in touch with PJ Softtech?"
+        ],
+        "answer": "Hello from PJ Softtech Pvt. Ltd. How can we help you?"
+      },
+      {
+        "questions": [
+          "How can I contact PJ Softtech?",
+          "What are the contact details for PJ Softtech?"
+        ],
+        "answer": "You can contact PJ Softtech via email at support@pjsofttech.com or call (+91) 99235 70901."
+      },
+      {
+        "questions": [
+          "What services does PJ Softtech offer?",
+          "What are the main services provided by PJ Softtech?"
+        ],
+        "answer": "PJ Softtech provides software development, AI solutions, cloud computing, and IT consulting services."
+      },
+      {
+        "questions": [
+          "Where is PJ Softtech located?",
+          "What is the headquarters of PJ Softtech?"
+        ],
+        "answer": "PJ Softtech is headquartered in Pune, India."
+      },
+      {
+        "questions": [
+          "Does PJ Softtech provide AI/ML solutions?",
+          "What is PJ Softtech's expertise in AI/ML?"
+        ],
+        "answer": "Yes, PJ Softtech specializes in AI/ML-based software development and consulting."
+      },
+      {
+        "questions": [
+          "What industries does PJ Softtech serve?",
+          "Which sectors does PJ Softtech cater to?"
+        ],
+        "answer": "PJ Softtech serves industries including finance, healthcare, retail, and manufacturing."
+      },
+      {
+        "questions": [
+          "Does PJ Softtech offer cloud services?",
+          "What cloud services are provided by PJ Softtech?"
+        ],
+        "answer": "Yes, PJ Softtech provides cloud computing services, including AWS, Azure, and Google Cloud solutions."
+      },
+      {
+        "questions": [
+          "What is the pricing model for PJ Softtech's services?",
+          "How does PJ Softtech determine pricing for its services?"
+        ],
+        "answer": "Pricing depends on project complexity and requirements. Contact info@pjsofttech.com for a quote."
+      },
+      {
+        "questions": [
+          "Does PJ Softtech offer internships?",
+          "Are there internship opportunities at PJ Softtech?"
+        ],
+        "answer": "Yes, PJ Softtech provides internships in software development, AI, and data science."
+      },
+      {
+        "questions": [
+          "How do I apply for a job at PJ Softtech?",
+          "What is the application process for jobs at PJ Softtech?"
+        ],
+        "answer": "You can apply via PJ Softtech's careers page or send your resume to info@pjsofttech.com."
+      },
+      {
+        "questions": [
+          "What is PJ Softtech’s refund policy?",
+          "How does PJ Softtech handle refunds?"
+        ],
+        "answer": "Refund policies depend on the service agreement. Contact info@pjsofttech.com for details."
+      }
+    ]
+  },
+  {
+    "Pricing": [
+      {
+        "questions": [
+          "What are the available pricing plans?",
+          "What pricing options does PJ Softtech offer?"
+        ],
+        "answer": "PJ Softtech offers Free, Basic, Premium, and Business plans with both monthly and yearly options."
+      },
+      {
+        "questions": [
+          "What is included in the Free plan?",
+          "What features come with the Free plan?"
+        ],
+        "answer": "The Free plan includes Income/Expense tracking, Cloud Storage, and 24/7 Support at ₹0."
+      },
+      {
+        "questions": [
+          "What is the cost of the Basic plan?",
+          "How much does the Basic plan cost?"
+        ],
+        "answer": "The Basic plan costs ₹1,000/month (discounted from ₹2,000) or ₹5,000/year (discounted from ₹1,399)."
+      },
+      {
+        "questions": [
+          "What features does the Basic plan include?",
+          "What does the Basic plan offer?"
+        ],
+        "answer": "The Basic plan includes Income/Expense tracking, Cloud Storage, and 24/7 Support."
+      },
+      {
+        "questions": [
+          "What is the cost of the Premium plan?",
+          "How much do I need to pay for the Premium plan?"
+        ],
+        "answer": "The Premium plan costs ₹2,000/month (discounted from ₹5,000) or ₹"
+      },
+        {
+          "courses": [
+          {
+           "questions": [
+                        "What Python Developer course does PJ Softtech offer?",
+                        "What is included in the Python Developer course?"
+                       ],
+            "answer": "PJ Softtech offers a Python Developer course covering high-level open-source programming. The price is ₹23,000 (MRP: ₹40,800)."
+  },
+          {
+           "questions": [
+                        "What is the cost of the Full Stack Developer (.NET) course?",
+                        "How much does the Full Stack Developer (.NET) course cost?"
+                      ],
+             "answer": "The Full Stack Developer (.NET) course costs ₹40,800 (MRP: ₹42,800)."
+  },
+  {
+           "questions": [
+                        "What does the UI/UX Designer course cover?",
+                        "What topics are included in the UI/UX Designer course?"
+                       ],
+             "answer": "The UI/UX Designer course covers usability, information architecture, responsive design, accessibility, and user research. The price is ₹44,800 (MRP: ₹34,700)."
+  },
+  {
+             "questions": [
+                           "What does the Java course include?",
+                           "What topics are covered in the Java course?"
+                         ],
+              "answer": "The Java course covers beginner to advanced levels, hands-on projects, and lifetime access. The price is ₹44,800 (MRP: ₹44,700)."
+  },
+  {
+             "questions": [
+                           "What is taught in the Cloud Computing course?",
+                           "What topics are covered in the Cloud Computing course?"
+                           ],
+             "answer": "The Cloud Computing course teaches cloud services for data storage, backup, analytics, and more. The price is ₹28,800 (MRP: ₹32,700)."
+  },
+  {
+             "questions": [
+                          "What does the Artificial Intelligence course offer?",
+                          "What topics are included in the Artificial Intelligence course?"
+                         ],
+    "answer": "The Artificial Intelligence course provides training in AI with the latest tools and techniques. The price is ₹48,200 (MRP: ₹54,800)."
+  },
+  {
+           "questions": [
+                        "What is the cost of the UI/UX Designer course with Java, HTML, and React?",
+                        "How much does the UI/UX Designer course with Java, HTML, and React cost?"
+                        ],
+             "answer": "The UI/UX Designer course with Java, HTML, and React costs ₹2,334.2 (MRP: ₹2,455.44)."
+  }
+]
+  },
+        {
+          "Solutions": [
+            {
+              "question": ["What software development services does PJ Softtech offer?",
+                          "What types of software solutions can I get from PJ Softtech?"],
+              "answer": "PJ Softtech provides comprehensive software development services, including web and app development, CRM, ERP, and testing & deployment."
+            },
+            {
+              "question": [
+                "Does PJ Softtech offer app development services?",
+                "What is included in PJ Softtech's app development services?"
+              ],
+              "answer": "Yes, PJ Softtech offers app development services to bring digital visions to life."
+            },
+            {
+              "question": [
+                "What web development services are available at PJ Softtech?",
+                "Can you describe the web development capabilities of PJ Softtech?"
+              ],
+              "answer": "PJ Softtech provides full-scale web development services, including front-end, back-end, and full-stack solutions."
+              
+            },
+            {
+              "question":  [
+                "What is CRM development at PJ Softtech?",
+                "How does PJ Softtech approach CRM development?"
+              ],
+              "answer": "CRM development at PJ Softtech includes creating custom Customer Relationship Management systems for businesses."
+            },
+            {
+              "question": [
+                "Does PJ Softtech provide ERP development?",
+                "What does ERP development involve at PJ Softtech?"
+              ],
+              "answer": " Yes, PJ Softtech offers ERP development services for enterprise-level business management solutions."
+            },
+            {
+              "question":  [
+                "What testing and deployment services does PJ Softtech provide?",
+                "How does PJ Softtech ensure software quality during deployment?"
+              ],
+              "answer": "PJ Softtech ensures smooth software deployment with rigorous testing and quality assurance practices."
+            },
+            {
+              "question": [
+                "Does PJ Softtech offer digital marketing services?",
+                "What digital marketing solutions are available at PJ Softtech?"
+              ],
+              "answer": "Yes, PJ Softtech provides digital marketing services, including SEO, content marketing, and social media management."
+            },
+            {
+              "question": [
+                "What design services does PJ Softtech offer?",
+                "Can you list the design services available at PJ Softtech?"
+              ],
+              "answer": "PJ Softtech offers logo design, UI/UX design, and branding services for businesses."
+            },
+            {
+              "question": [
+                "What management systems does PJ Softtech provide?",
+                "Can you describe the management systems offered by PJ Softtech?"
+              ],
+              "answer": "PJ Softtech offers various management systems, including Student Management, Online Admission, Fees Management, Online Examination, and more."
+            },
+            {
+              "question": [
+                "What employee management solutions does PJ Softtech offer?",
+                "How does PJ Softtech's Employee Management System work?"
+              ],
+              "answer": "PJ Softtech provides Employee Management Systems to streamline HR and workforce operations."
+            },
+            {
+              "question": [
+                "What finance-related solutions does PJ Softtech provide?",
+                "Can you explain the finance management systems offered by PJ Softtech?"
+              ],
+              "answer": "PJ Softtech offers Income & Expenses Management Systems for financial tracking and reporting."
+            }
+          ]
+        },
+        {
+          "STUDENT_MANAGEMENT_SYSTEM": {
+            "questions_and_answers": [
+              {
+                "questions": [
+                  "What is the Student Management System?",
+                  "What can the Student Management System do?",
+                  "How does the Student Management System help schools?"
+                ],
+                "answer": "The Student Management System is a comprehensive platform designed to manage student-related information such as personal details, academic records, attendance, and more — all within one secure and centralized system. It helps schools streamline administrative tasks and improve communication among students, staff, and parents."
+              },
+              {
+                "questions": [
+                  "What are the key features of the Student Management System?",
+                  "What features does the Student Management System have?"
+                ],
+                "answer": [
+                  {
+                    "name": "Centralized Student Data",
+                    "details": "Manage personal details, academic records, and attendance in one secure platform."
+                  },
+                  {
+                    "name": "Streamlined Admissions",
+                    "details": "Simplifies the admission process from application to enrollment."
+                  },
+                  {
+                    "name": "Attendance Tracking",
+                    "details": "Automates attendance management with real-time tracking and reporting."
+                  },
+                  {
+                    "name": "Fee Management",
+                    "details": "Track, collect, and generate receipts for student payments."
+                  },
+                  {
+                    "name": "Exam & Result Management",
+                    "details": "Conduct exams, manage grades, and publish results efficiently."
+                  },
+                  {
+                    "name": "Parent Communication",
+                    "details": "Provides instant updates to parents via SMS or email about attendance, fees, and performance."
+                  },
+                  {
+                    "name": "Customizable Reports",
+                    "details": "Generate detailed reports on student performance, attendance, and fee status."
+                  },
+                  {
+                    "name": "Time Management",
+                    "details": "Saves administrative time by automating repetitive tasks."
+                  }
+                ]
+              },
+              {
+                "questions": [
+                  "What are the benefits of using the Student Management System?",
+                  "Why should schools use the Student Management System?"
+                ],
+                "answer": [
+                  "Centralized student data storage with secure access.",
+                  "Simplified and automated admission process.",
+                  "Real-time attendance tracking and reporting.",
+                  "Efficient fee collection and receipt generation.",
+                  "Comprehensive exam management and result publication.",
+                  "Instant communication with parents via SMS and email.",
+                  "Customizable performance and administrative reports.",
+                  "Time-saving through task automation.",
+                  "Role-based secure access for different users.",
+                  "User -friendly interface for easy navigation by staff and educators."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EMPLOYEE_MANAGEMENT_SYSTEM": {
+            "questions_and_answers": [
+              {
+                "questions": [
+                  "What is the Employee Management System?",
+                  "What does the Employee Management System do?",
+                  "How can the Employee Management System help businesses?"
+                ],
+                "answer": "The Employee Management System is a comprehensive platform designed to manage all employee-related information such as personal details, roles, departments, employment history, and more — all within a secure and centralized system. It helps businesses streamline HR operations, improve workforce management, and enhance organizational productivity."
+              },
+              {
+                "questions": [
+                  "What are the main features of the Employee Management System?",
+                  "What features does the Employee Management System have?"
+                ],
+                "answer": [
+                  {
+                    "name": "Centralized Employee Records",
+                    "details": "Manage all employee details including personal information, roles, departments, and employment history in one secure platform."
+                  },
+                  {
+                    "name": "Streamlined Recruitment Process",
+                    "details": "Simplifies job postings, applicant tracking, interviews, and onboarding workflows."
+                  },
+                  {
+                    "name": "Attendance & Leave Management",
+                    "details": "Track employee attendance, work hours, leave requests, and approvals in real time."
+                  },
+                  {
+                    "name": "Payroll & Compensation",
+                    "details": "Automate salary calculations, deductions, and generate payslips while managing tax and compliance."
+                  },
+                  {
+                    "name": "Performance Management",
+                    "details": "Set goals, track KPIs, conduct performance reviews, and provide regular feedback."
+                  },
+                  {
+                    "name": "Training & Development",
+                    "details": "Manage employee training programs, skill development sessions, and certification tracking."
+                  },
+                  {
+                    "name": "Shift & Task Scheduling",
+                    "details": "Assign shifts and tasks efficiently to avoid conflicts and optimize productivity."
+                  },
+                  {
+                    "name": "Employee Self-Service",
+                    "details": "Allow employees to view payslips, apply for leaves, update profiles, and track their performance."
+                  }
+                ]
+              },
+              {
+                "questions": [
+                  "What are the benefits of using the Employee Management System?",
+                  "Why should companies use the Employee Management System?"
+                ],
+                "answer": [
+                  "Centralized employee data: Keeps all employee information in one place with secure access.",
+                  "Streamlined recruitment: Makes hiring more efficient with automated processes.",
+                  "Improved onboarding: Eases the integration of new hires into the organization.",
+                  "Enhanced performance management: Supports continuous feedback and performance tracking.",
+                  "Automated payroll: Reduces manual errors and saves time on salary processing.",
+                  "Time and attendance tracking: Monitors working hours and absenteeism effectively.",
+                  "Compliance management: Ensures adherence to legal and regulatory requirements.",
+                  "Employee self-service: Empowers staff to manage their own data and HR interactions.",
+                  "Data-driven insights: Enables strategic HR decisions with reports and analytics.",
+                  "Boosted engagement: Strengthens internal communication and employee satisfaction."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "INCOME_EXPENSES_MANAGEMENT": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the Income & Expenses Management System?",
+              "How does the Income & Expenses Management System help businesses?",
+              "What does the Income & Expenses Management System do?"
+            ],
+            "answer": "The Income & Expenses Management System is a powerful financial platform that helps businesses manage all income and expense-related activities. It offers real-time tracking, report generation, budgeting, and financial visibility to ensure smarter decision-making and better financial health."
+          },
+          {
+            "questions": [
+              "What are the main features of the Income & Expenses Management System?",
+              "What key features does the Income & Expenses Management System have?"
+            ],
+            "answer": [
+              {
+                "name": "Comprehensive Financial Tracking",
+                "details": "Track all income and expense sources in real time, ensuring complete visibility of financial data."
+              },
+              {
+                "name": "Automated Data Entry",
+                "details": "Minimize manual errors and save time with automated income and expense logging."
+              },
+              {
+                "name": "Customizable Categories",
+                "details": "Create and manage custom income and expense categories for better organization."
+              },
+              {
+                "name": "Detailed Financial Reports",
+                "details": "Generate reports like profit & loss statements, balance sheets, and cash flow summaries."
+              },
+              {
+                "name": "Budget Management",
+                "details": "Set financial goals and track budget performance across departments or projects."
+              },
+              {
+                "name": "Expense Allocation",
+                "details": "Allocate expenses to specific projects or departments for accurate reporting."
+              },
+              {
+                "name": "Mobile Access",
+                "details": "Access the system from anywhere using mobile devices with real-time updates."
+              },
+              {
+                "name": "Invoice Management",
+                "details": "Create, send, and track invoices to ensure timely and organized billing."
+              },
+              {
+                "name": "Data Security",
+                "details": "Protect sensitive financial information with encryption and role-based access controls."
+              },
+              {
+                "name": "Tax Compliance",
+                "details": "Streamline tax calculations and reporting by organizing financial data accurately."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of using the Income & Expenses Management System?",
+              "Why should businesses use the Income & Expenses Management System?"
+            ],
+            "answer": [
+              "Real-time income and expense tracking for accurate financial monitoring.",
+              "Automation reduces manual entry and human errors.",
+              "Customizable categories to tailor the system to specific business needs.",
+              "Insightful financial reports for better analysis and planning.",
+              "Effective budget control to prevent overspending.",
+              "Clear allocation of expenses for projects or departments.",
+              "Anytime, anywhere access via mobile devices.",
+              "Improved invoice handling and payment tracking.",
+              "Secure handling of financial data with access control.",
+              "Easier and more accurate tax preparation and compliance."
+            ]
+          },
+          {
+            "questions": [
+              "What makes the user interface of the Income & Expenses Management System engaging?",
+              "How does the user interface enhance the user experience?"
+            ],
+            "answer": "The user interface is intuitive, visually clean, and user-friendly. It features interactive elements and customizable dashboards that allow users to easily access and understand financial information, enhancing productivity and decision-making."
+          },
+          {
+            "questions": [
+              "How does the Communication History feature work?",
+              "What is the purpose of the Communication History feature?"
+            ],
+            "answer": "The Communication History feature logs and manages all financial-related interactions. Users can access a complete history of communications, including emails and chat messages, for accountability, transparency, and easier follow-up."
+          },
+          {
+            "questions": [
+              "What is Source Tracking in the Enquiry Management System?",
+              "How does Source Tracking help educational institutions?"
+            ],
+            "answer": "Source Tracking identifies the origin of each enquiry (such as from a website, ad campaign, or referral) and helps institutions analyze which channels bring in the most leads. This supports more effective marketing and recruitment strategies."
+          }
+        ]
+      }
+    },
+    {
+      "ENQUIRY_MANAGEMENT_SYSTEM": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the Enquiry Management System?",
+              "How does the Enquiry Management System help educational institutions?",
+              "What does the Enquiry Management System do?"
+            ],
+            "answer": "The Enquiry Management System is a centralized software solution designed to manage, track, and follow up on all incoming enquiries. It helps educational institutions or organizations streamline communication, improve lead management, and enhance response efficiency."
+          },
+          {
+            "questions": [
+              "What are the main features of the Enquiry Management System?",
+              "What features does the Enquiry Management System have?"
+            ],
+            "answer": [
+              {
+                "name": "Centralized Enquiry Records",
+                "details": "Store and manage all enquiries in one platform with complete details like contact information, source, and follow-up status."
+              },
+              {
+                "name": "Lead Capture & Integration",
+                "details": "Automatically collect enquiries from websites, emails, calls, and social media channels."
+              },
+              {
+                "name": "Follow-Up Scheduling",
+                "details": "Set automated reminders and tasks for timely follow-ups and avoid missed leads."
+              },
+              {
+                "name": "Employee Assignment",
+                "details": "Assign enquiries to staff based on availability, department, or priority."
+              },
+              {
+                "name": "Status Tracking",
+                "details": "Track enquiry status through different stages like new, contacted, converted, or closed."
+              },
+              {
+                "name": "Response Templates",
+                "details": "Use predefined email/SMS templates to ensure fast and consistent communication."
+              },
+              {
+                "name": "Real-Time Notifications",
+                "details": "Receive instant alerts for new enquiries and scheduled follow-ups."
+              },
+              {
+                "name": "Communication History",
+                "details": "Log all past interactions related to each enquiry, including emails and messages."
+              },
+              {
+                "name": "Lead Tracking & Management",
+                "details": "Monitor enquiry progress from first contact through conversion."
+              },
+              {
+                "name": "Secure Data Management",
+                "details": "Keep enquiry data safe with encryption and access control mechanisms."
+              },
+              {
+                "name": "CRM Integration",
+                "details": "Seamlessly integrate with existing CRM systems for smooth workflow and data syncing."
+              },
+              {
+                "name": "24/7 Support",
+                "details": "Get round-the-clock support for any issues or questions."
+              },
+              {
+                "name": "Reports and Dashboard",
+                "details": "Generate analytical reports and access visual dashboards for insight into trends and performance."
+              },
+              {
+                "name": "Next-Generation Software",
+                "details": "Utilizes the latest technology to ensure fast, reliable, and efficient enquiry management."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of using the Enquiry Management System?",
+              "Why should educational institutions use the Enquiry Management System?"
+            ],
+            "answer": [
+              "Centralized enquiry management improves data organization and follow-up efficiency.",
+              "Real-time lead tracking ensures timely communication and improved conversions.",
+              "Automated follow-ups reduce manual effort and enhance consistency.",
+              "Customizable enquiry forms allow relevant information collection.",
+              "Real-time reporting and dashboards support data-driven decisions.",
+              "Categorization of leads enables better targeting and response strategies.",
+              "Faster response times lead to better engagement and customer satisfaction.",
+              "Integrated communication ensures seamless messaging via email and SMS.",
+              "Analytics help evaluate marketing campaigns and team performance.",
+              "Increased conversion rates through effective lead nurturing and tracking."
+            ]
+          },
+          {
+            "questions": [
+              "What makes the user interface of the Enquiry Management System engaging?",
+              "How does the user interface enhance the user experience?"
+            ],
+            "answer": "The user interface is modern, clean, and user-friendly. With customizable dashboards, intuitive navigation, and interactive elements, users can easily access, track, and respond to enquiries—enhancing productivity and user satisfaction."
+          },
+          {
+            "questions": [
+              "What is Communication History in the Enquiry Management System?",
+              "How does the Communication History feature work?"
+            ],
+            "answer": "Communication History tracks all past interactions related to an enquiry, including emails, messages, and notes. This provides a comprehensive timeline, improves accountability, and ensures all team members are informed of previous conversations, enhancing follow-up accuracy."
+          }
+        ]
+      }
+    },
+    {
+      "PROJECT_MANAGEMENT_SYSTEM": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the Project Management System?",
+              "How does the Project Management System help organizations?",
+              "What does the Project Management System do?"
+            ],
+            "answer": "The Project Management System is a comprehensive software solution designed to help organizations plan, execute, monitor, and complete projects efficiently. It offers a centralized platform for collaboration, task tracking, resource management, and deadline adherence."
+          },
+          {
+            "questions": [
+              "What are the main features of the Project Management System?",
+              "What features does the Project Management System have?"
+            ],
+            "answer": [
+              {
+                "name": "Centralized Project Data",
+                "details": "Manage all project-related information including timelines, files, and team details in one secure platform."
+              },
+              {
+                "name": "Streamlined Onboarding",
+                "details": "Easily create new projects and assign team roles with predefined templates."
+              },
+              {
+                "name": "Task & Progress Tracking",
+                "details": "Monitor tasks and milestones in real time with visual dashboards."
+              },
+              {
+                "name": "Budget Management",
+                "details": "Track spending, allocate budgets, and generate financial reports."
+              },
+              {
+                "name": "Resource & Time Management",
+                "details": "Manage team schedules, track time, and optimize workload distribution."
+              },
+              {
+                "name": "Team Communication",
+                "details": "Facilitate communication with built-in chat, notifications, and email tools."
+              },
+              {
+                "name": "Customizable Reports",
+                "details": "Create detailed performance, budget, and status reports."
+              },
+              {
+                "name": "Automation & Efficiency",
+                "details": "Automate recurring tasks and streamline workflows to boost productivity."
+              },
+              {
+                "name": "Project Planning and Scheduling",
+                "details": "Define project scope, set timelines, and assign responsibilities clearly."
+              },
+              {
+                "name": "Task & Workflow Management",
+                "details": "Organize tasks into workflows and assign them to team members systematically."
+              },
+              {
+                "name": "Risk & Issue Management",
+                "details": "Proactively identify risks and track issues before they become critical."
+              },
+              {
+                "name": "Reporting & Analytics",
+                "details": "Analyze project performance through visual dashboards and reports."
+              },
+              {
+                "name": "Time Tracking & Timesheets",
+                "details": "Record time spent on tasks for better planning and billing."
+              },
+              {
+                "name": "Security & Access Control",
+                "details": "Ensure data safety with role-based permissions and secure access protocols."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of using the Project Management System?",
+              "Why should organizations use the Project Management System?"
+            ],
+            "answer": [
+              "Improved collaboration across remote or hybrid teams.",
+              "Structured task planning and organized workflows.",
+              "Automated scheduling and deadline management.",
+              "Enhanced productivity with streamlined processes.",
+              "Accurate resource allocation and budget control.",
+              "Real-time tracking and data-driven reporting.",
+              "Proactive risk and issue identification.",
+              "Centralized document and file management.",
+              "Flexible system adaptable to any project scale.",
+              "Better client and stakeholder transparency and communication."
+            ]
+          },
+          {
+            "questions": [
+              "What is the role of Project Planning and Scheduling in the Project Management System?",
+              "How does Project Planning and Scheduling contribute to project success?"
+            ],
+            "answer": "Project Planning and Scheduling are essential for defining the project scope, setting goals, assigning resources, and establishing timelines. These features ensure that projects remain on track, deadlines are met, and team efforts are aligned with project objectives."
+          },
+          {
+            "questions": [
+              "What is Task and Workflow Management in the Project Management System?",
+              "How does Task and Workflow Management improve project execution?"
+            ],
+            "answer": "Task and Workflow Management ensures that work is structured and completed efficiently by breaking down projects into tasks, assigning responsibilities, and automating routine processes. This promotes accountability, clarity, and improved execution."
+          },
+          {
+            "questions": [
+              "What is Budgeting and Cost Control in the Project Management System?",
+              "How does Budgeting and Cost Control contribute to project management?"
+            ],
+            "answer": "Budgeting and Cost Control help manage the financial aspects of projects by estimating total costs and monitoring spending. This feature ensures that expenses stay within planned limits, contributing to overall project success and profitability."
+          }
+        ]
+      }
+    },
+    {
+      "HOSPITAL_MANAGEMENT_SYSTEM": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the Hospital Management System?",
+              "How does the Hospital Management System help hospitals?",
+              "What does the Hospital Management System do?"
+            ],
+            "answer": "The Hospital Management System is an all-in-one healthcare software solution that helps hospitals manage patients, appointments, billing, staff, inventory, diagnostics, and more through a centralized and secure platform. It streamlines hospital operations, improves efficiency, and enhances patient care."
+          },
+          {
+            "questions": [
+              "What are the main features of the Hospital Management System?",
+              "What features does the Hospital Management System offer?"
+            ],
+            "answer": [
+              {
+                "name": "Centralized Patient Records",
+                "details": "Manage all patient information, including personal details, medical history, prescriptions, and visit logs in one secure platform."
+              },
+              {
+                "name": "Streamlined Appointment Scheduling",
+                "details": "Simplifies booking, rescheduling, and managing appointments for both patients and doctors."
+              },
+              {
+                "name": "Doctor & Staff Management",
+                "details": "Maintain records of doctors, nurses, and staff, including schedules, roles, and performance."
+              },
+              {
+                "name": "Billing & Invoicing",
+                "details": "Automate billing processes, track payments, generate invoices, and manage insurance claims."
+              },
+              {
+                "name": "Inpatient & Outpatient Management",
+                "details": "Manage patient admissions, discharges, and outpatient visits efficiently."
+              },
+              {
+                "name": "Inventory & Pharmacy Management",
+                "details": "Monitor medical supplies, manage drug inventory, and track medicine dispensing."
+              },
+              {
+                "name": "Laboratory & Diagnostic Management",
+                "details": "Integrate lab test orders, track sample processing, and publish results digitally."
+              },
+              {
+                "name": "Electronic Medical Records (EMR)",
+                "details": "Digitize and store comprehensive patient medical records."
+              },
+              {
+                "name": "Ambulance Booking",
+                "details": "Allow patients or staff to book ambulance services promptly."
+              },
+              {
+                "name": "Reporting & Analytics",
+                "details": "Generate real-time reports and insights for decision-making."
+              },
+              {
+                "name": "Security & Compliance",
+                "details": "Ensure secure access and compliance with healthcare regulations."
+              },
+              {
+                "name": "Hospital, Doctor, Nurse, and Patient Apps",
+                "details": "Dedicated apps for easy access and communication among stakeholders."
+              },
+              {
+                "name": "Multiple Hospital & Department Management",
+                "details": "Support for managing multiple hospital branches and departments."
+              },
+              {
+                "name": "24/7 Support",
+                "details": "Access to round-the-clock support for system issues and assistance."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of using the Hospital Management System?",
+              "Why should hospitals use the Hospital Management System?"
+            ],
+            "answer": [
+              "Improved Efficiency: Automates tasks like patient registration, appointment scheduling, and billing, reducing manual effort.",
+              "Enhanced Patient Care: Provides quick access to patient records, history, and lab reports.",
+              "Streamlined Operations: Integrates departments such as pharmacy and laboratory for seamless workflow.",
+              "Better Data Security: Uses encryption and role-based access to protect patient data.",
+              "Reduced Operational Costs: Minimizes paperwork and optimizes resource use with automation.",
+              "Efficient Appointment Management: Reduces patient wait times and manages doctor schedules better.",
+              "Accurate Billing & Financial Management: Avoids billing errors and simplifies insurance processing.",
+              "Inventory & Resource Optimization: Tracks stock and prevents shortages or overstocking.",
+              "Advanced Reporting & Analytics: Offers insights into hospital performance and financial health."
+            ]
+          },
+          {
+            "questions": [
+              "What is the Patient Management System (PMS)?",
+              "How does the Patient Management System improve hospital care?"
+            ],
+            "answer": "The Patient Management System (PMS) is a key module that manages patient records and improves hospital workflow. It includes tools like the Patient Admission & Discharge Trend Graph for monitoring patient flow, and Appointment Booking vs No-Show Rate charts to analyze scheduling efficiency and improve patient engagement."
+          },
+          {
+            "questions": [
+              "What is the Staff & Workflow Management System?",
+              "How does the Staff & Workflow Management System help hospitals?"
+            ],
+            "answer": "The Staff & Workflow Management System ensures efficient operations by managing duty rosters, shift scheduling, HR integration, payroll processing, and performance evaluation. It helps prevent burnout, reduces overtime, and ensures all departments are well staffed."
+          },
+          {
+            "questions": [
+              "What is the Inventory & Resource Management System?",
+              "Why is Inventory & Resource Management important in hospitals?"
+            ],
+            "answer": "The Inventory & Resource Management System ensures efficient tracking and use of medical supplies and equipment. It prevents overstocking and shortages, tracks equipment maintenance, and helps make informed purchasing decisions to enhance patient care and reduce costs."
+          }
+        ]
+      }
+    },
+    {
+      "School_Management_System": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the School Management System?",
+              "How does the School Management System help educational institutions?",
+              "What does the School Management System do?"
+            ],
+            "answer": "The School Management System is a software solution designed to automate and streamline various administrative and academic functions within educational institutions. It centralizes data, enhances communication, and improves operational efficiency."
+          },
+          {
+            "questions": [
+              "What are the main features of the School Management System?",
+              "What features does the School Management System have?"
+            ],
+            "answer": [
+              {
+                "name": "Centralized School Data",
+                "details": "Manage all student information, including personal details, academic records, and class assignments in one secure and centralized platform."
+              },
+              {
+                "name": "Streamlined Admissions",
+                "details": "Simplifies the entire admission process, from application to enrollment."
+              },
+              {
+                "name": "Attendance Tracking",
+                "details": "Real-time tracking and reporting of student and staff attendance."
+              },
+              {
+                "name": "Fee Management",
+                "details": "Tracks, collects, and generates receipts for fees efficiently."
+              },
+              {
+                "name": "Exam & Result Management",
+                "details": "Conducts exams and publishes results seamlessly."
+              },
+              {
+                "name": "Parent Communication",
+                "details": "Sends SMS/email updates to parents regarding student progress."
+              },
+              {
+                "name": "Customizable Reports",
+                "details": "Generates detailed performance and fee reports tailored to institutional needs."
+              },
+              {
+                "name": "Time Management",
+                "details": "Automates administrative tasks to enhance efficiency."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of using the School Management System?",
+              "Why should educational institutions use the School Management System?"
+            ],
+            "answer": [
+              "Centralized Administration: Manage all school operations, including admissions, fees, and academics, from a single platform.",
+              "Automated Fee Management: Simplifies fee collection, reminders, and receipt generation, reducing manual work.",
+              "Efficient Attendance Tracking: Real-time tracking of student and staff attendance with instant reports.",
+              "Streamlined Communication: Facilitates seamless communication between teachers, students, and parents via SMS, email, or notifications.",
+              "Exam and Report Card Management: Conducts exams, evaluates results, and generates detailed report cards effortlessly.",
+              "Library Management: Keeps track of book inventories, issue records, and returns.",
+              "Timetable and Scheduling: Easily creates and manages timetables for classes and staff.",
+              "Customizable Reports: Generates detailed analytics for school performance, finances, and academic outcomes.",
+              "Mobile Accessibility: Accesses the system anytime, anywhere with mobile compatibility.",
+              "Data Security: Ensures data integrity and privacy with secure, role-based access controls."
+            ]
+          },
+          {
+            "questions": [
+              "What is a Student Management System (SMS)?",
+              "How does the Student Management System benefit educational institutions?"
+            ],
+            "answer": "A Student Management System (SMS) serves as a centralized platform for educational institutions to efficiently manage student-related information and processes. It encompasses various functionalities including admissions, enrollment, academic management, attendance tracking, grading, financial management, and student support services. It enhances administrative efficiency, promotes student success, and supports data-driven decision-making."
+          },
+          {
+            "questions": [
+              "What is Faculty Management in the School Management System?",
+              "How does Faculty Management contribute to academic success?"
+            ],
+            "answer": "Faculty management systems aid in course assignment and scheduling, ensuring that faculty members are allocated courses based on their expertise, availability, and workload. They also generate schedules that optimize faculty time and classroom utilization, promoting an environment conducive to teaching and learning."
+          },
+          {
+            "questions": [
+              "What is Campus Administration in the School Management System?",
+              "How does efficient campus administration impact the educational environment?"
+            ],
+            "answer": "Efficient campus administration involves managing various aspects of campus life, including facilities, finances, human resources, and student services. It ensures seamless operations and facilitates an environment conducive to learning and growth."
+          }
+        ]
+      }
+    },
+    {
+      "Online_Examination_System": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the Online Examination System?",
+              "How does the Online Exam system work?",
+              "What does this system do?"
+            ],
+            "answer": "The Online Examination System is a tool that helps create, manage, and conduct exams online. It allows you to make exams, control who takes them, and instantly check results."
+          },
+          {
+            "questions": [
+              "What are the main features of the Online Examination System?",
+              "What can I do with this system?"
+            ],
+            "answer": [
+              {
+                "name": "Question Bank",
+                "details": "Store and organize all exam questions in one place. You can sort them by subject, difficulty, or type."
+              },
+              {
+                "name": "Create Exams",
+                "details": "Easily design exams with settings like time limits, random questions, and different types of questions (like multiple choice or essays)."
+              },
+              {
+                "name": "Student and Teacher Management",
+                "details": "Manage who can take exams and what they can see. You can control students’ and teachers' access."
+              },
+              {
+                "name": "Secure Exams",
+                "details": "Protect exams with features like browser lockdowns and webcam monitoring to stop cheating."
+              },
+              {
+                "name": "Instant Results",
+                "details": "Get results right away for multiple choice questions once a student finishes the exam."
+              },
+              {
+                "name": "Performance Reports",
+                "details": "Get detailed reports about how students did in the exam and which topics they struggled with."
+              },
+              {
+                "name": "Multi-Device Access",
+                "details": "Students can take exams on their phones, tablets, or computers."
+              },
+              {
+                "name": "Notifications",
+                "details": "Send exam reminders and results to students through email or text messages."
+              },
+              {
+                "name": "Customizable Reports",
+                "details": "Create reports about exam attendance, scores, and feedback, and share them with the admin."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of using this system?",
+              "Why should I use this Online Exam system?"
+            ],
+            "answer": [
+              "It helps you easily create and manage exams online.",
+              "Grading is automatic for multiple choice questions, so there's no human error.",
+              "You can create different types of questions like multiple choice and essays.",
+              "Students get their results right after finishing the exam.",
+              "It stops cheating with secure login and random questions.",
+              "You can track how students are doing in real time.",
+              "Exams can be scheduled at any time that works for students.",
+              "You can see reports and details about student performance.",
+              "It saves money by reducing the need for paper exams.",
+              "Students can access exams from anywhere on any device."
+            ]
+          },
+          {
+            "questions": [
+              "How does the system handle data?",
+              "What happens to the data from the exams?"
+            ],
+            "answer": "The system saves all the exam data (like answers and question banks) on the cloud. This makes it easy for students and teachers to access information anytime. It also analyzes the results, such as score distribution, pass rates, and common mistakes, so teachers can improve future exams."
+          },
+          {
+            "questions": [
+              "What is Assessment Information Control?",
+              "How does the system control how students are assessed?"
+            ],
+            "answer": "This system helps students apply for admission, submit documents, and check if they're accepted. It also creates merit lists based on entrance exam scores and helps students track their admission status."
+          },
+          {
+            "questions": [
+              "What is Advanced Analytics and Reporting?",
+              "What kind of reports can I see with this system?"
+            ],
+            "answer": "This system has advanced tools that let admins see important data about the exams, like attendance, test scores, and which questions were the hardest for students. It helps the school improve future exams and make better decisions."
+          }
+        ]
+      }
+    },
+    {
+      "INSTITUTE_MANAGEMENT_SYSTEM": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the Institute Management System?",
+              "How does the Institute Management System help educational institutions?",
+              "What does the Institute Management System do?"
+            ],
+            "answer": "The Institute Management System is an all-in-one software platform designed to manage academic, administrative, and operational tasks within educational institutions. It centralizes student, staff, course, admission, and financial information into a secure and accessible system."
+          },
+          {
+            "questions": [
+              "What are the main features of the Institute Management System?",
+              "What features does the Institute Management System offer?"
+            ],
+            "answer": [
+              {
+                "name": "Parent Portal",
+                "details": "Connects parents with their child's academic updates, fee details, and performance reports."
+              },
+              {
+                "name": "Timetable Management",
+                "details": "Automates the creation and management of class schedules for both students and teachers."
+              },
+              {
+                "name": "Analytical Reporting Tool",
+                "details": "Provides data-driven insights into institutional performance, attendance, fees, and academics."
+              },
+              {
+                "name": "Academic Progress Monitoring",
+                "details": "Track student academic performance, attendance, and grading over time."
+              },
+              {
+                "name": "Cloud Capabilities",
+                "details": "Accessible from anywhere, with secure cloud-based data storage and access."
+              },
+              {
+                "name": "Grade Reporting",
+                "details": "Generates report cards and academic transcripts for students."
+              },
+              {
+                "name": "24/7 Support",
+                "details": "Provides continuous support for software users and administrative staff."
+              },
+              {
+                "name": "Reports and Dashboard",
+                "details": "Interactive dashboards and downloadable reports on academic, financial, and administrative metrics."
+              },
+              {
+                "name": "Next Generation Software",
+                "details": "Built with modern technologies for efficiency, performance, and scalability."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of using the Institute Management System?",
+              "Why should institutions use the Institute Management System?"
+            ],
+            "answer": [
+              "Comprehensive Institute Management: Streamlines everything from admissions to examination in a single system.",
+              "Automated Administrative Processes: Reduces manual work by automating attendance, fee collection, and result processing.",
+              "Centralized Data: Keeps student, staff, and finance data secure and in one place.",
+              "Customizable Dashboards: Offers role-based dashboards for administrators, teachers, and students.",
+              "Real-Time Reporting: Generate live reports for academics, finance, and attendance.",
+              "Timetable Management: Simplifies creation and sharing of class schedules.",
+              "Fee Management: Tracks fee payment, sends reminders, and issues receipts automatically.",
+              "Seamless Communication: Enables real-time communication through built-in messaging and alerts.",
+              "Security & Privacy: Implements secure login and role-based data access.",
+              "Mobile-Friendly: Works across devices including phones and tablets for easy accessibility."
+            ]
+          },
+          {
+            "questions": [
+              "What is the pre-admission process in the Institute Management System?",
+              "How does the pre-admission process help institutions?"
+            ],
+            "answer": "The pre-admission process includes managing inquiries, sharing information about programs, and collecting initial student details. It helps streamline registrations, eligibility checks, and documentation for a seamless admission workflow."
+          },
+          {
+            "questions": [
+              "What is the post-admission process in the Institute Management System?",
+              "What happens after a student is admitted?"
+            ],
+            "answer": "Once students are admitted, the system handles enrollment confirmation, orientation scheduling, course registration, and academic advising to ensure a smooth transition into institutional life."
+          },
+          {
+            "questions": [
+              "What is the Streamlined Student Records Management Solution?",
+              "How does it help manage student information?"
+            ],
+            "answer": "This solution digitizes and securely manages all student-related data including admissions, attendance, grades, disciplinary actions, and financial records. It enables authorized access while maintaining compliance and privacy."
+          },
+          {
+            "questions": [
+              "What is a Human Resource Management System (HRMS) in the Institute Management System?",
+              "How does the HRMS module support staff management?"
+            ],
+            "answer": "HRMS manages staff hiring, onboarding, performance reviews, payroll processing, and professional development. It supports a healthy work environment by tracking staff progress and maintaining complete HR records in one place."
+          }
+        ]
+      }
+    },
+    {
+      "SHIPMENT_MANAGEMENT_SYSTEM": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the Shipment Management System?",
+              "How does the Shipment Management System help businesses?"
+            ],
+            "answer": "The Shipment Management System is a software platform designed to help businesses manage all aspects of shipments including dispatching, tracking, billing, and customer communication from a centralized system."
+          },
+          {
+            "questions": [
+              "What are the main features of the Shipment Management System?",
+              "What features does the Shipment Management System offer?"
+            ],
+            "answer": [
+              {
+                "name": "Centralized Shipment Data",
+                "details": "Manages all shipment details such as sender/receiver information, delivery history, and status updates securely in one place."
+              },
+              {
+                "name": "Streamlined Order Processing",
+                "details": "Simplifies the entire process of placing, managing, and dispatching orders."
+              },
+              {
+                "name": "Real-Time Tracking",
+                "details": "Allows customers and staff to monitor shipments with real-time updates on location and status."
+              },
+              {
+                "name": "Billing & Invoicing",
+                "details": "Enables easy tracking of payments, invoice generation, and maintaining financial records."
+              },
+              {
+                "name": "Delivery & Status Updates",
+                "details": "Automates delivery scheduling and status notifications for smoother operations."
+              },
+              {
+                "name": "Customer Communication",
+                "details": "Notifies customers via SMS and email about shipment updates and estimated delivery."
+              },
+              {
+                "name": "Customizable Reports",
+                "details": "Generates detailed financial, delivery, and operational reports to help improve decision-making."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of the Shipment Management System?",
+              "Why should businesses use the Shipment Management System?"
+            ],
+            "answer": [
+              "Centralized management of shipment data for better visibility.",
+              "Simplifies and speeds up the entire order-to-delivery process.",
+              "Real-time tracking increases customer satisfaction.",
+              "Automated invoicing and billing reduce errors and save time.",
+              "Custom reports help improve operations and delivery efficiency.",
+              "Secure access and data privacy features keep shipment data protected.",
+              "Easy integration with mobile and other platforms for on-the-go access."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "STUDYPOINT_INFORMATION_SYSTEM": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the StudyPoint Information System?",
+              "How does this system help coaching centers or tuition classes?"
+            ],
+            "answer": "The StudyPoint Information System is software that helps coaching centers and study points manage students, courses, fees, attendance, exams, and communication all in one place."
+          },
+          {
+            "questions": [
+              "What are the main features of the StudyPoint Information System?",
+              "What can this system do?"
+            ],
+            "answer": [
+              {
+                "name": "Fees Reminder",
+                "details": "Sends reminders to students or parents about upcoming or pending fees."
+              },
+              {
+                "name": "Attendance Monitoring",
+                "details": "Tracks daily attendance of students and teachers in real time."
+              },
+              {
+                "name": "Grading & Assessment",
+                "details": "Helps in conducting tests and grading students quickly and easily."
+              },
+              {
+                "name": "Real-Time Notifications",
+                "details": "Sends SMS or email updates about attendance, results, or class changes."
+              },
+              {
+                "name": "Mobile Access",
+                "details": "Works on mobile devices so students and teachers can use it from anywhere."
+              },
+              {
+                "name": "Data Analytics",
+                "details": "Shows useful reports like fee status, student performance, and attendance trends."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of using StudyPoint Information System?",
+              "Why is it useful for tuition centers?"
+            ],
+            "answer": [
+              "Improves communication between students, teachers, and parents.",
+              "Makes fee collection, attendance, and exam management easy.",
+              "Gives quick reports on student progress and center performance.",
+              "Saves time and reduces paperwork by automating tasks.",
+              "Helps in online learning with video lectures, quizzes, and assignments.",
+              "Keeps all data safe with cloud backup and password protection."
+            ]
+          },
+          {
+            "questions": [
+              "What is E-Library & Study Materials in this system?",
+              "How can students use study materials online?"
+            ],
+            "answer": "It’s a digital place where students and teachers can find e-books, notes, videos, and assignments anytime."
+          },
+          {
+            "questions": [
+              "How does online learning work in this system?",
+              "Can students attend online classes?"
+            ],
+            "answer": "Yes, students can join live or recorded online classes using Zoom or Google Meet. They can also chat with teachers, ask questions, and check class schedules."
+          },
+          {
+            "questions": [
+              "How does the system manage teachers and staff?",
+              "Can it track teacher attendance and schedule?"
+            ],
+            "answer": "Yes, the system keeps teacher records, tracks attendance, manages leaves, and helps plan their class schedules without clashes."
+          },
+          {
+            "questions": [
+              "How does the system handle student fees?",
+              "Can it send payment reminders?"
+            ],
+            "answer": "Yes, it creates fee invoices, tracks payments, and sends reminders for unpaid fees. It also supports online payment options."
+          }
+        ]
+      }
+    },
+    {
+      "ONLINE_FEE_MANAGEMENT_SYSTEM": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the Online Fee Management System?",
+              "How does the Online Fee Management System help educational institutions?"
+            ],
+            "answer": "The Online Fee Management System is a comprehensive solution designed to streamline fee collection, billing, and payment tracking in educational institutions. It automates the fee payment process, generates invoices and receipts, and ensures that all financial transactions are securely managed and monitored in real time."
+          },
+          {
+            "questions": [
+              "What are the key features of the Online Fee Management System?",
+              "What functionalities does the Online Fee Management System offer?"
+            ],
+            "answer": [
+              {
+                "name": "Fee Payment",
+                "details": "Supports online fee payments via multiple payment channels such as cards, UPI, net banking, etc."
+              },
+              {
+                "name": "Payment Reminders",
+                "details": "Sends automated reminders to students and parents for upcoming or overdue payments via SMS/email."
+              },
+              {
+                "name": "Fee Collection",
+                "details": "Automates the fee collection process, providing a convenient way to pay for tuition, hostel, bus, library, and other fees."
+              },
+              {
+                "name": "Automated Reminders",
+                "details": "Automatically generates reminders to prevent overdue payments and reduces administrative effort."
+              },
+              {
+                "name": "Fee Reporting",
+                "details": "Generates detailed reports on fee collections, pending dues, and defaulters to help administrators manage finances."
+              },
+              {
+                "name": "Accuracy and Precision",
+                "details": "Ensures accurate calculations of fees, discounts, and penalties to avoid errors."
+              },
+              {
+                "name": "24/7 Support",
+                "details": "Offers round-the-clock customer support to assist students and staff with any fee-related issues."
+              },
+              {
+                "name": "Reports and Dashboard",
+                "details": "Provides an interactive dashboard for administrators to track real-time payment data and generate financial reports."
+              },
+              {
+                "name": "Next Generation Software",
+                "details": "Built using advanced technologies, ensuring high performance, scalability, and security."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of using the Online Fee Management System?",
+              "Why should educational institutions use the Online Fee Management System?"
+            ],
+            "answer": [
+              "Automated Fee Collection: Reduces manual effort and human error by automating the fee collection and billing process.",
+              "Online Payment Integration: Secure and convenient online payment options for students, improving payment efficiency.",
+              "Customizable Fee Structures: Allows institutions to configure fee structures based on courses, student categories, and other factors.",
+              "Real-Time Payment Tracking: Monitors payments in real time, ensuring accuracy and transparency.",
+              "Automated Reminders: Sends timely payment reminders to reduce late payments and maintain financial stability.",
+              "Receipt Generation: Instantly generates and sends digital receipts to students and parents after payments are made.",
+              "Comprehensive Reports: Provides detailed insights into fee collections, pending payments, and financial records.",
+              "Secure Data Management: Ensures the security of financial data and transaction records, protecting student privacy.",
+              "Reduced Administrative Workload: Automates administrative tasks related to fee collection and billing, allowing staff to focus on other responsibilities.",
+              "Parent & Student Portal: Provides a self-service portal where students and parents can view fee details, make payments, and track payment history."
+            ]
+          },
+          {
+            "questions": [
+              "What is the Fee Collection Process in the Online Fee Management System?",
+              "How does the fee collection process work?"
+            ],
+            "answer": "The fee collection process in the Online Fee Management System allows students to make payments online using various payment methods such as credit/debit cards, UPI, or net banking. Once a payment is made, the system immediately updates records, generates receipts, and sends digital acknowledgments to students and parents. The system also sends automated reminders for pending fees."
+          },
+          {
+            "questions": [
+              "What is the Fees Register in the Online Fee Management System?",
+              "What does the Fees Register do?"
+            ],
+            "answer": "The Fees Register is a detailed record of all fee-related transactions, including payments, discounts, penalties, and financial adjustments. It provides a transparent audit trail and helps administrators track all fee-related activities efficiently, ensuring accuracy and compliance."
+          },
+          {
+            "questions": [
+              "How does Fee Structure Allocation work in the Online Fee Management System?",
+              "How are fees assigned to students in the system?"
+            ],
+            "answer": "The system allows institutions to define various fee structures based on parameters like course, grade level, and student category. It automatically assigns the correct fee amount to each student based on their enrollment details. Additionally, the system tracks scholarships, waivers, and discounts, ensuring that fee amounts are accurately calculated and applied."
+          },
+          {
+            "questions": [
+              "What are the Additional Fee Allocations in the Online Fee Management System?",
+              "How are extra fees like extracurricular activities or scholarships managed?"
+            ],
+            "answer": "The system can manage additional fees for extracurricular activities, clubs, sports teams, and other student engagement programs. It also tracks and applies scholarships, grants, and financial aid to students, ensuring that the correct fees are applied and financial records are updated accordingly."
+          }
+        ]
+      }
+    },
+    {
+      "ATTENDANCE_MANAGEMENT_SYSTEM": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the Attendance Management System?",
+              "How does the Attendance Management System help educational institutions or businesses?"
+            ],
+            "answer": "The Attendance Management System (AMS) is a software solution designed to track and manage the attendance of students or employees in real-time. It integrates with multiple attendance methods like biometric devices, RFID, and mobile apps, helping institutions or businesses automate attendance tracking, manage leaves, and generate reports."
+          },
+          {
+            "questions": [
+              "What are the key features of the Attendance Management System?",
+              "What functionalities does the Attendance Management System offer?"
+            ],
+            "answer": [
+              {
+                "name": "Real-Time Attendance Tracking",
+                "details": "Tracks attendance in real-time using various modes such as biometric, RFID, or online systems."
+              },
+              {
+                "name": "Leave & Absence Management",
+                "details": "Manages leave requests, approvals, and absenteeism effectively, ensuring transparent and timely management of employee or student absences."
+              },
+              {
+                "name": "Shift & Schedule Management",
+                "details": "Allows administrators to create and manage work or class schedules, ensuring optimal resource allocation."
+              },
+              {
+                "name": "Automated Notifications",
+                "details": "Sends alerts for late arrivals, early departures, absenteeism, and leave approvals via SMS or email."
+              },
+              {
+                "name": "Customizable Attendance Rules",
+                "details": "Institutions or businesses can define custom attendance rules such as minimum attendance percentages, working hours, and overtime policies."
+              },
+              {
+                "name": "Reports and Dashboard",
+                "details": "Provides real-time attendance reports and interactive dashboards for administrators to analyze attendance data and trends."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of using the Attendance Management System?",
+              "Why should institutions or businesses use this system?"
+            ],
+            "answer": [
+              "Real-Time Attendance Monitoring: Automatically records attendance and updates in real-time, reducing manual errors.",
+              "Multiple Attendance Methods: Supports various attendance tracking methods such as biometric, RFID, or mobile-based systems.",
+              "Leave and Absenteeism Management: Manages employee or student leaves, including vacation, sick leave, and personal time off, directly linked to attendance records.",
+              "Automated Notifications: Sends timely alerts for absenteeism or leave approvals, improving communication and accountability.",
+              "Reports and Analysis: Provides detailed reports for better analysis of attendance trends, helping make data-driven decisions.",
+              "Customizable Rules and Policies: Allows setting custom attendance policies based on institutional or business needs.",
+              "Integration with Payroll/Academic Systems: Seamlessly integrates with other systems like payroll or academic management, offering a holistic view of attendance impacts."
+            ]
+          },
+          {
+            "questions": [
+              "What is biometric attendance?",
+              "How does the biometric attendance system work?"
+            ],
+            "answer": "The Biometric Attendance System uses unique biometric features such as fingerprints to track attendance. Each individual’s fingerprint is stored in the system, and attendance is recorded by verifying their fingerprint against the system’s database, ensuring accuracy and preventing proxy attendance."
+          },
+          {
+            "questions": [
+              "What is the mobile-based attendance system?",
+              "How does the mobile-based attendance system work?"
+            ],
+            "answer": "The Mobile-Based Attendance System enables students or employees to mark their attendance via a mobile app using unique login credentials. It integrates with the institution's or business’s attendance management system and allows leave requests, attendance tracking, and real-time notifications through the app."
+          },
+          {
+            "questions": [
+              "What is the QR Code-based attendance system?",
+              "How does the QR Code-based attendance system work?"
+            ],
+            "answer": "The QR Code-based Attendance System allows students or employees to scan their unique QR codes using a mobile app or scanner to mark their attendance. This method ensures easy and quick attendance recording while enhancing individual responsibility for attendance."
+          }
+        ]
+      }
+    },
+    {
+      "ATTENDANCE_MANAGEMENT_SYSTEM": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the Attendance Management System?",
+              "How does the Attendance Management System help educational institutions or businesses?"
+            ],
+            "answer": "The Attendance Management System (AMS) is a software solution designed to track and manage the attendance of students or employees in real-time. It integrates with multiple attendance methods like biometric devices, RFID, and mobile apps, helping institutions or businesses automate attendance tracking, manage leaves, and generate reports."
+          },
+          {
+            "questions": [
+              "What are the key features of the Attendance Management System?",
+              "What functionalities does the Attendance Management System offer?"
+            ],
+            "answer": [
+              {
+                "name": "Real-Time Attendance Tracking",
+                "details": "Tracks attendance in real-time using various modes such as biometric, RFID, or online systems."
+              },
+              {
+                "name": "Leave & Absence Management",
+                "details": "Manages leave requests, approvals, and absenteeism effectively, ensuring transparent and timely management of employee or student absences."
+              },
+              {
+                "name": "Shift & Schedule Management",
+                "details": "Allows administrators to create and manage work or class schedules, ensuring optimal resource allocation."
+              },
+              {
+                "name": "Automated Notifications",
+                "details": "Sends alerts for late arrivals, early departures, absenteeism, and leave approvals via SMS or email."
+              },
+              {
+                "name": "Customizable Attendance Rules",
+                "details": "Institutions or businesses can define custom attendance rules such as minimum attendance percentages, working hours, and overtime policies."
+              },
+              {
+                "name": "Reports and Dashboard",
+                "details": "Provides real-time attendance reports and interactive dashboards for administrators to analyze attendance data and trends."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of using the Attendance Management System?",
+              "Why should institutions or businesses use this system?"
+            ],
+            "answer": [
+              "Real-Time Attendance Monitoring: Automatically records attendance and updates in real-time, reducing manual errors.",
+              "Multiple Attendance Methods: Supports various attendance tracking methods such as biometric, RFID, or mobile-based systems.",
+              "Leave and Absenteeism Management: Manages employee or student leaves, including vacation, sick leave, and personal time off, directly linked to attendance records.",
+              "Automated Notifications: Sends timely alerts for absenteeism or leave approvals, improving communication and accountability.",
+              "Reports and Analysis: Provides detailed reports for better analysis of attendance trends, helping make data-driven decisions.",
+              "Customizable Rules and Policies: Allows setting custom attendance policies based on institutional or business needs.",
+              "Integration with Payroll/Academic Systems: Seamlessly integrates with other systems like payroll or academic management, offering a holistic view of attendance impacts."
+            ]
+          },
+          {
+            "questions": [
+              "What is biometric attendance?",
+              "How does the biometric attendance system work?"
+            ],
+            "answer": "The Biometric Attendance System uses unique biometric features such as fingerprints to track attendance. Each individual’s fingerprint is stored in the system, and attendance is recorded by verifying their fingerprint against the system’s database, ensuring accuracy and preventing proxy attendance."
+          },
+          {
+            "questions": [
+              "What is the mobile-based attendance system?",
+              "How does the mobile-based attendance system work?"
+            ],
+            "answer": "The Mobile-Based Attendance System enables students or employees to mark their attendance via a mobile app using unique login credentials. It integrates with the institution's or business’s attendance management system and allows leave requests, attendance tracking, and real-time notifications through the app."
+          },
+          {
+            "questions": [
+              "What is the QR Code-based attendance system?",
+              "How does the QR Code-based attendance system work?"
+            ],
+            "answer": "The QR Code-based Attendance System allows students or employees to scan their unique QR codes using a mobile app or scanner to mark their attendance. This method ensures easy and quick attendance recording while enhancing individual responsibility for attendance."
+          }
+        ]
+      }
+    },
+    {
+      "COLLEGE_MANAGEMENT_SYSTEM": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the College Management System?",
+              "What does the Income and Expenses Management module do?"
+            ],
+            "answer": "The College Management System is an integrated software solution designed to handle all administrative, academic, and financial operations of an educational institution. The Income and Expenses Management module enables institutions to manage their financial records, track income sources, and monitor expenses efficiently."
+          },
+          {
+            "questions": [
+              "How does the College Management System manage income and expenses?",
+              "What features are included in the Income and Expenses Management module?"
+            ],
+            "answer": [
+              {
+                "name": "Centralized College Data",
+                "details": "The system securely stores and organizes all academic, departmental, administrative, and student services data in one platform, ensuring ease of access and management."
+              },
+              {
+                "name": "Fee & Scholarship Management",
+                "details": "Manages fee payments, automates receipts, and tracks scholarships or financial aid programs, simplifying the financial aspect for students and faculty."
+              },
+              {
+                "name": "Real-Time Financial Tracking",
+                "details": "Tracks financial transactions in real time, allowing administrators to monitor income and expenses instantly."
+              },
+              {
+                "name": "Budget Planning and Allocation",
+                "details": "Helps institutions plan their budget by allocating resources to various departments, courses, and services based on their needs."
+              },
+              {
+                "name": "Expense Categorization",
+                "details": "Categorizes expenses into different types such as academic, administrative, infrastructure, and more, for better clarity and control."
+              },
+              {
+                "name": "Automated Reports",
+                "details": "Generates financial reports, income statements, and balance sheets, enabling easy analysis and decision-making."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the key features of the College Management System?",
+              "How does the system streamline college management?"
+            ],
+            "answer": [
+              {
+                "name": "Streamlined Admissions",
+                "details": "Simplifies the entire admission process, from application submission to enrollment, with automated document verification and processing."
+              },
+              {
+                "name": "Course & Department Management",
+                "details": "Easily manages multiple departments, courses, electives, and academic structures, ensuring efficient academic operations."
+              },
+              {
+                "name": "Fee and Payment Management",
+                "details": "Automates fee collection, payment reminders, and receipt generation, reducing manual work and ensuring timely payments."
+              },
+              {
+                "name": "Student & Faculty Management",
+                "details": "Maintains detailed records of students, faculty, and non-teaching staff with role-based access, ensuring secure and organized data management."
+              },
+              {
+                "name": "Advanced Reporting & Analytics",
+                "details": "Generates detailed reports and analytics on student performance, financials, attendance, and more, to support data-driven decision-making."
+              },
+              {
+                "name": "Mobile Access",
+                "details": "Offers mobile compatibility, allowing students, staff, and administrators to access the system from anywhere, at any time."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of using the College Management System?",
+              "Why should educational institutions adopt this system?"
+            ],
+            "answer": [
+              "Comprehensive Management: Manages all aspects of college administration, including admissions, academics, exams, and fees, in one integrated system.",
+              "Streamlined Admissions: Simplifies the admission process, making it faster and more efficient.",
+              "Fee and Payment Management: Automates fee collection, reduces administrative burden, and ensures timely fee payments.",
+              "Real-Time Attendance Tracking: Monitors student and faculty attendance with automatic alerts for absences.",
+              "Exam and Result Management: Simplifies exam scheduling, grading, and result publication.",
+              "Advanced Reporting & Analytics: Provides insights into student performance, attendance, financials, and more for better decision-making.",
+              "Secure Data Management: Ensures the privacy and security of all academic and financial data with role-based access and encryption.",
+              "Mobile Access: Allows access to key features of the system from any device, anywhere, at any time."
+            ]
+          },
+          {
+            "questions": [
+              "What is Fee and Scholarship Management?",
+              "How does the system handle scholarships and financial aid?"
+            ],
+            "answer": "Fee and Scholarship Management allows educational institutions to track fee payments, automate receipts, and manage scholarships or financial aid programs. The system ensures that students receive the correct financial support, sends payment reminders, and generates receipts automatically. It can also track the status of scholarship applications and disbursements."
+          },
+          {
+            "questions": [
+              "How does the system manage payroll?",
+              "What features are available for payroll management?"
+            ],
+            "answer": "The system's payroll management module automates the calculation of salaries, wages, taxes, and deductions for faculty and staff. It also supports automated time tracking, leave management, and expense reimbursement. Employees can access self-service portals to track their earnings and submit timesheets or leave requests, reducing administrative workload."
+          }
+        ]
+      }
+    },
+    {
+      "HOSTEL_MANAGEMENT_SYSTEM": {
+        "questions_and_answers": [
+          {
+            "questions": [
+              "What is the Hostel Management System?",
+              "What does the Hostel Management System do?"
+            ],
+            "answer": "The Hostel Management System (HMS) is an advanced software solution designed to streamline hostel operations, including room allocation, fee collection, attendance tracking, complaint management, and more. It automates key functions to enhance administrative efficiency and ensure smooth accommodation for residents."
+          },
+          {
+            "questions": [
+              "What are the key features of the Hostel Management System?",
+              "What functionalities does the Hostel Management System offer?"
+            ],
+            "answer": [
+              {
+                "name": "Centralized Hostel Data",
+                "details": "The system stores and manages all hostel data, including resident details, room allocations, and stay history, ensuring easy access and organization."
+              },
+              {
+                "name": "Automated Room Allocation",
+                "details": "Automates the room booking and allocation process, taking into account room availability and resident preferences."
+              },
+              {
+                "name": "Attendance & Check-In/Out Tracking",
+                "details": "Tracks resident movements and attendance in real time, ensuring accurate records of when residents check-in or check-out."
+              },
+              {
+                "name": "Fee & Rent Management",
+                "details": "Manages hostel fee collection, generates receipts, and keeps track of rent payments, making financial management easier and more transparent."
+              },
+              {
+                "name": "Complaint & Maintenance Management",
+                "details": "Allows residents to log complaints and maintenance issues, ensuring prompt resolution and keeping track of service requests."
+              },
+              {
+                "name": "Parent/Guardian Communication",
+                "details": "Sends SMS and email notifications to guardians about important updates, such as resident attendance, payments, and hostel activities."
+              }
+            ]
+          },
+          {
+            "questions": [
+              "What are the benefits of using the Hostel Management System?",
+              "Why should hostels adopt this system?"
+            ],
+            "answer": [
+              "Streamlined Operations: Automates key processes such as room allocation, fee collection, and attendance tracking, reducing manual administrative work.",
+              "Improved Data Management: Centralized storage of resident data, financials, and operational logs ensures better data access and reporting.",
+              "Real-Time Tracking: Enables real-time tracking of attendance, check-ins, check-outs, and fees, providing instant insights into hostel operations.",
+              "Enhanced Security: 24/7 CCTV surveillance and detailed visitor logs increase security and help manage safety effectively.",
+              "Better Communication: Automated notifications and communication features ensure parents and guardians are kept informed about their ward's activities.",
+              "Efficient Complaint Management: Tracks and resolves maintenance issues and complaints promptly, ensuring resident satisfaction."
+            ]
+          },
+          {
+            "questions": [
+              "How does the system manage fee and rent collection?",
+              "How does the system handle payments?"
+            ],
+            "answer": "The system automates the hostel fee collection process, sends reminders for pending dues, and generates receipts for payments made. It also provides an online payment option for added convenience and transparency."
+          },
+          {
+            "questions": [
+              "What is the role of the self-study library in the hostel?",
+              "How does the self-study library benefit students?"
+            ],
+            "answer": "The self-study library is a designated quiet area within the hostel where residents can study without distractions. It is equipped with digital resources, climate control, and power outlets to provide a conducive environment for learning and research."
+          },
+          {
+            "questions": [
+              "How does the system handle payroll for hostel staff?",
+              "What features are available for payroll management?"
+            ],
+            "answer": "The payroll management module in the system automates salary calculations, tax deductions, and leave management for hostel staff. It ensures timely and accurate payments while reducing administrative workload. Staff can also access self-service portals to track their earnings, submit timesheets, and request leave."
+          },
+          {
+            "questions": [
+              "What are the security features in the hostel management system?",
+              "How is security managed in the hostel?"
+            ],
+            "answer": "The system incorporates CCTV surveillance 24/7, monitoring entry/exit points and common areas to ensure the safety of residents. Additionally, it maintains access logs for visitors and tracks any unusual activities, contributing to a secure hostel environment."
+          }
+        ]
+      }
+    },
+    {
+      "HUMAN_RESOURCE_MANAGEMENT_SYSTEM": {
+          "questions_and_answers": [
+        {
+          "questions": [
+            "What is the Human Resource Management System (HRMS)?",
+            "What functionalities does the HRMS offer?"
+          ],
+          "answer": "The Human Resource Management System (HRMS) is a software solution designed to automate and streamline the HR processes, including recruitment, employee data management, attendance tracking, payroll management, and performance monitoring. It helps HR teams manage the entire employee lifecycle from recruitment to retirement."
+        },
+        {
+          "questions": [
+            "What are the key features of the HRMS?",
+            "What functionalities does the HRMS system include?"
+          ],
+          "answer": [
+            {
+              "name": "Employee App",
+              "details": "An app designed for employees to access their personal details, attendance, leave requests, and other HR services at their fingertips."
+            },
+            {
+              "name": "Attendance Management",
+              "details": "Tracks and manages employee attendance through automated systems like biometric, RFID, or mobile check-ins, ensuring accuracy and compliance."
+            },
+            {
+              "name": "Payslip Generation",
+              "details": "Automates the generation of payslips and salary breakdowns, making it easier for employees to access and track their earnings."
+            },
+            {
+              "name": "Interview Scheduling",
+              "details": "Automates interview scheduling for recruitment purposes, ensuring efficient communication between candidates and interviewers."
+            },
+            {
+              "name": "Automated Messaging",
+              "details": "Sends automated messages, notifications, and reminders via email/SMS to employees regarding important updates or policies."
+            },
+            {
+              "name": "Offer Letter Generation",
+              "details": "Automatically generates offer letters for new recruits, streamlining the hiring process."
+            },
+            {
+              "name": "Termination Letter Generation",
+              "details": "Generates termination letters for employees who are leaving the organization, ensuring compliance and proper documentation."
+            },
+            {
+              "name": "Experience Letter Generation",
+              "details": "Generates experience letters for employees upon their departure, validating their work history and contributions."
+            },
+            {
+              "name": "PF Management",
+              "details": "Manages provident fund contributions and ensures compliance with the statutory requirements."
+            },
+            {
+              "name": "Holiday Management",
+              "details": "Tracks and manages employee holidays, ensuring that leave requests are properly processed and recorded."
+            },
+            {
+              "name": "Employee ID Card Management",
+              "details": "Helps create, manage, and issue employee ID cards, ensuring secure access to office premises."
+            },
+            {
+              "name": "24/7 Support",
+              "details": "Provides round-the-clock support for employees and HR teams to resolve issues or answer queries efficiently."
+            }
+          ]
+        },
+        {
+          "questions": [
+            "What are the benefits of HRMS software?",
+            "Why should organizations implement HRMS?"
+          ],
+          "answer": [
+            "Enhanced Efficiency and Automation: Automates repetitive HR tasks such as payroll processing, attendance tracking, and recruitment management.",
+            "Improved Accuracy and Compliance: Ensures accurate record-keeping and compliance with labor laws and organizational policies.",
+            "Centralized Employee Data Management: Stores all employee data in one secure platform, making it easily accessible and manageable.",
+            "Better Recruitment and Onboarding: Simplifies job postings, applicant tracking, and interview scheduling, improving the overall recruitment process.",
+            "Effective Payroll and Benefits Management: Ensures timely salary disbursement and accurate calculations for payroll, bonuses, and benefits.",
+            "Employee Self-Service Portals: Employees can update personal information, view their payslips, and request leave, reducing HR workload.",
+            "Data Security and Confidentiality: Protects sensitive employee data with encryption and secure access control mechanisms.",
+            "Scalability and Customization: Allows the system to grow with the organization and tailor HR modules to specific business needs.",
+            "Cost Savings: Helps save costs by reducing manual administrative work, minimizing errors, and ensuring compliance."
+          ]
+        },
+        {
+          "questions": [
+            "How does the HRMS handle payroll?",
+            "What are the features of payroll management in the HRMS?"
+          ],
+          "answer": "The HRMS's payroll management module automates the entire payroll process, from salary calculations to tax deductions and disbursements. It ensures statutory compliance and supports multiple payroll configurations, allowing organizations to manage payroll efficiently."
+        },
+        {
+          "questions": [
+            "What is Attendance Management in HRMS?",
+            "How does the system track employee attendance?"
+          ],
+          "answer": "Attendance Management in HRMS tracks employee attendance using biometric systems, RFID cards, GPS-based mobile check-ins, or digital timesheets. It helps HR teams monitor work hours, absenteeism, and leave records automatically, ensuring accurate records for payroll processing and compliance with labor regulations."
+        },
+        {
+          "questions": [
+            "Who is the founder of PJSoftTech?",
+            "What is the role of Padamkumar Jain?"
+          ],
+          "answer": {
+            "name": "Padamkumar Jain",
+            "position": "Founder",
+            "description": "A visionary in technology solutions with a passion for innovation."
+          }
+        },
+        {
+          "questions": [
+            "Who is the CEO of PJSoftTech?",
+            "What is Pooja Halkambe's experience?"
+          ],
+          "answer": {
+            "name": "Pooja Halkambe",
+            "position": "CEO",
+            "description": "Leading the company with over 5 years of industry experience."
+          }
+        },
+        {
+          "questions": [
+            "Who is the Sales Manager at PJSoftTech?",
+            "What does Shashank Narad focus on?"
+          ],
+          "answer": {
+            "name": "Shashank Narad",
+            "position": "Sales Manager",
+            "description": "Focused on driving sales growth and client relationships."
+          }
+        }
+      ]
+    }
+  }
+]
+}

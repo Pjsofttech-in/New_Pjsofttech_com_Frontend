@@ -1,0 +1,171 @@
+.cardContent > * {
+  margin-top: 20px; 
+}
+.head:hover {
+    color: #00689b;
+  }
+  
+  .margin {
+    margin-top: 5%;
+  }
+  .heading {
+    margin-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(0,131,185);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .container-custom {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+  
+  .blog-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    height: 340px;
+  }
+  
+  .blog-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, rgb(38,157,215 ), rgb(51, 139, 176));
+    color: white;
+  }
+  
+  .blog-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5%;
+  }
+  
+  .blog-card-content {
+    font-family: "Verdana", sans-serif;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  
+  
+  .heading {
+    margin-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(0,131,185);
+    font-family: "Poppins", sans-serif; /* Change the font style for heading */
+    font-weight: 700; /* Make the heading bold */
+    text-align: center; /* Center the heading */
+  
+  }
+  
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* This centers the content horizontally */
+    text-align: center; /* To center the text */
+  }
+  
+  .readMoreButton {
+    margin-top: 15px; /* Add some margin to the top to create space */
+    display: inline-block;
+    font-weight: bold;
+    background-color: #0083B9;
+    color: white;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .readMoreButton:hover{
+    background-color: rgb(255, 255, 255);
+    color: #0083B9;
+    border: 5px solid white;
+    color:black;
+    text-decoration: underline;
+  
+  }
+  
+  
+  .card1 {
+    transition: transform 0.2s ease-in-out;
+    width:100%;
+    max-width: 350px; 
+    margin: auto;
+
+   
+  }
+  
+  .card1:hover {
+    transform: scale(1.05);
+    color: black;
+  }
+  
+  .card1 img {
+    width: 100%;
+    height: 200px !important; }
+  
+  .card-content {
+    font-family: "Raleway", sans-serif; /* Change the font style for paragraphs */
+    color: #050505; /* Change the font color for paragraphs */
+    line-height: 1.6; /* Improve readability */
+    text-align: center; /* Justify text for better readability */
+  }
+  
+  
+/* Responsive Grid */
+@media (max-width: 768px) {
+  .container-custom {
+    padding: 0 15px;
+  }
+  .container {
+      padding: 0 15px;
+  }
+  
+  .grid-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .heading {
+      font-size: 24px; /* Adjust heading size */
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
+  .card1 {
+      width: 90%;
+      margin-bottom: 20px;
+  }
+}
+
+/* Responsive Button */
+.readMoreButton {
+  margin-top: 25px;
+  font-weight: bold;
+  background-color: #0083B9;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+ 
+}
+
+.readMoreButton:hover {
+  background-color: white;
+  color: #0083B9;
+  border: 2px solid #0083B9;
+}  
+ 
+  

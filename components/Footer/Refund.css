@@ -1,0 +1,82 @@
+ .Data-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .Data-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .Data-container h2 {
+    margin-top: 20px;
+    color: #34495e;
+  }
+  
+  .Data-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .Data-container p,
+  .Data-container ul {
+    margin-bottom: 20px;
+  }
+  
+  .Data-container address {
+    font-style: normal;
+    line-height: 1.6;
+  }
+  
+  .Data-container a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .Data-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .Data-container {
+      padding: 15px;
+    }
+  
+    .Data-container h1 {
+      font-size: 1.8rem;
+    }
+  
+    .Data-container h2 {
+      font-size: 1.4rem;
+    }
+  
+    .Data-container p,
+    .Data-container ul {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Data-container {
+      padding: 10px;
+    }
+  
+    .Data-container h1 {
+      font-size: 1.5rem;
+    }
+  
+    .Data-container h2 {
+      font-size: 1.2rem;
+    }
+  
+    .Data-container p,
+    .Data-container ul {
+      font-size: 0.9rem;
+    }
+  }
