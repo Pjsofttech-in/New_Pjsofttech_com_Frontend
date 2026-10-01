@@ -31,42 +31,66 @@ const Footer = () => {
                     <div className={styles["service-col"]}>
                       <ul>
                         <li>
-                          <Link href="/school-new-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/school-new-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             School Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/college-management-software" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/college-management-software"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             College Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/academy-management-software" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/academy-management-software"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Academy Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/institute-management-software" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/institute-management-software"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             University Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/enquiry-management-software" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/enquiry-management-software"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Lead Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/income-expenses-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/income-expenses-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Inventory Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/employee-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/employee-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Employee Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/study-point-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/study-point-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             StudyPoint Management
                           </Link>
                         </li>
@@ -77,42 +101,66 @@ const Footer = () => {
                     <div className={styles["service-col"]}>
                       <ul>
                         <li>
-                          <Link href="/student-information-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/student-information-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Student Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/hr-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/hr-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             HR Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/Shippment-management-software" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/Shippment-management-software"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Shipment Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/payroll-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/payroll-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Payroll Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/project-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/project-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Project Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/hostel-managment-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/hostel-managment-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Hostel Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/fees-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/fees-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Fees Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/online-examination-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/online-examination-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Online Examination System
                           </Link>
                         </li>
@@ -123,44 +171,64 @@ const Footer = () => {
                     <div className={styles["service-col"]}>
                       <ul>
                         <li>
-                          <Link href="/attendance-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/attendance-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Attendance Education System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/online-admission-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/online-admission-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Online Admission System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/sales-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/sales-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Sales Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/classroom-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/classroom-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Classroom Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/test-series-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/test-series-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Test Series Management
                           </Link>
                         </li>
                         <li>
-                          <Link href="/ecommerce-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/ecommerce-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             Ecommerce Management System
                           </Link>
                         </li>
                         <li>
-                          <Link href="/book-shop-management-system" style={{ color: "white", textDecoration: "none" }}>
+                          <Link
+                            href="/book-shop-management-system"
+                            style={{ color: "white", textDecoration: "none" }}
+                          >
                             BookShop Management
                           </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
-
                 </div>
 
                 <div className={styles["footer-services1"]}>
@@ -271,7 +339,10 @@ const Footer = () => {
                             <div className="text-start">
                               <a
                                 href="mailto:pjsofttech@gmail.com"
-                                style={{ color: "white", textDecoration: "none" }}
+                                style={{
+                                  color: "white",
+                                  textDecoration: "none",
+                                }}
                               >
                                 sales@pjsofttech.com
                               </a>
@@ -283,7 +354,10 @@ const Footer = () => {
                             <div>
                               <a
                                 href="tel:+919923570901"
-                                style={{ color: "white", textDecoration: "none" }}
+                                style={{
+                                  color: "white",
+                                  textDecoration: "none",
+                                }}
                               >
                                 (+91) 7020 615206
                               </a>
@@ -294,15 +368,20 @@ const Footer = () => {
                             href="https://www.google.com/maps?q=PjSoftTech+pvt+ltd,+Lokmanya+Bal+Gangadhar+Tilak+Rd,+Sadashiv+Peth,+Pune,+Maharashtra+411030"
                             target="_blank"
                             rel="noopener noreferrer"
-                            style={{ color: "white", textDecoration: "none", display: "block", marginTop: "20px" }}
+                            style={{
+                              color: "white",
+                              textDecoration: "none",
+                              display: "block",
+                              marginTop: "20px",
+                            }}
                             className={styles.address}
                           >
                             <h4 className="fw-bold">Branch Office:-</h4>
-                            2nd floor, White House, Oppo. Tilak Smarak Mandir, <br />
-                            Tilak Rd, Perugate, Sadashiv Peth,
-                            Pune, MaharashtraÂ 411030, India
+                            2nd floor, White House, Oppo. Tilak Smarak Mandir,{" "}
+                            <br />
+                            Tilak Rd, Perugate, Sadashiv Peth, Pune,
+                            MaharashtraÂ 411030, India
                           </a>
-
                         </div>
                       </div>
 
@@ -449,7 +528,10 @@ const Footer = () => {
                 >
                   <img
                     src="https://proctur.com/assets/img/playstore.png"
-                    onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = logoPj.src; }}
+                    onError={(event) => {
+                      event.currentTarget.onerror = null;
+                      event.currentTarget.src = logoPj.src;
+                    }}
                     width="auto"
                     height="40px"
                     alt="Playstore 1"
@@ -462,7 +544,10 @@ const Footer = () => {
                 >
                   <img
                     src="https://proctur.com/assets/img/applestore.png"
-                    onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = logoPj.src; }}
+                    onError={(event) => {
+                      event.currentTarget.onerror = null;
+                      event.currentTarget.src = logoPj.src;
+                    }}
                     width="auto"
                     height="40px"
                     alt="Playstore 2"
@@ -635,21 +720,26 @@ const Footer = () => {
                 >
                   <h4 className="fw-bold">Head Office:-</h4>
                   203, 2nd floor, Mangalmurti <br />
-                  Complex, behind ABIL Tower, Hirabagh Chowk, Tilak
-                  Road, Shrukravar Peth, Pune-411002, India
+                  Complex, behind ABIL Tower, Hirabagh Chowk, Tilak Road,
+                  Shrukravar Peth, Pune-411002, India
                 </a>
 
                 <a
                   href="https://www.google.com/maps?q=PjSoftTech+pvt+ltd,+Lokmanya+Bal+Gangadhar+Tilak+Rd,+Sadashiv+Peth,+Pune,+Maharashtra+411030"
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ color: "white", textDecoration: "none", display: "block", marginTop: "20px" }}
+                  style={{
+                    color: "white",
+                    textDecoration: "none",
+                    display: "block",
+                    marginTop: "20px",
+                  }}
                   className={styles.address}
                 >
                   <h4 className="fw-bold">Branch Office:-</h4>
                   2nd floor, White House, Oppo. Tilak Smarak Mandir, <br />
-                  Tilak Rd, Perugate, Sadashiv Peth,
-                  Pune, MaharashtraÂ 411030, India
+                  Tilak Rd, Perugate, Sadashiv Peth, Pune, MaharashtraÂ 411030,
+                  India
                 </a>
               </li>
 
@@ -800,7 +890,10 @@ const Footer = () => {
               >
                 <img
                   src="https://proctur.com/assets/img/playstore.png"
-                  onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = logoPj.src; }}
+                  onError={(event) => {
+                    event.currentTarget.onerror = null;
+                    event.currentTarget.src = logoPj.src;
+                  }}
                   width="auto"
                   height="40px"
                   alt="Playstore 1"
@@ -813,7 +906,10 @@ const Footer = () => {
               >
                 <img
                   src="https://proctur.com/assets/img/applestore.png"
-                  onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = logoPj.src; }}
+                  onError={(event) => {
+                    event.currentTarget.onerror = null;
+                    event.currentTarget.src = logoPj.src;
+                  }}
                   width="auto"
                   height="40px"
                   alt="Playstore 2"
@@ -835,5 +931,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-

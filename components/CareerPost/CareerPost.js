@@ -105,7 +105,7 @@ const JobsPage = () => {
       tags: ["React Native", "JavaScript", "Redux"],
       posted: " 4 days ago",
     },
-     {
+    {
       id: 10,
       title: "Mobile App Developer (ios)",
       company: "Pjsofttech PVt Ltd",
@@ -138,7 +138,7 @@ const JobsPage = () => {
       tags: ["CorelDRAW ", "Adobe Illustrator", "Adobe Photoshop", "Canvas"],
       posted: " 7 days ago",
     },
-     {
+    {
       id: 13,
       title: "Graphic Designer & Video Creator (Intern)",
       company: "Pjsofttech PVt Ltd",
@@ -157,10 +157,15 @@ const JobsPage = () => {
       salary: "₹ 24 to 30 K Per Months ",
       type: "Full-time",
       desc: "This is an entry-level position for freshers or candidates with up to one year of experience in client-facing role.",
-      tags: ["Lead Generation ", "Business Development", "sales", "Postsales Support"],
+      tags: [
+        "Lead Generation ",
+        "Business Development",
+        "sales",
+        "Postsales Support",
+      ],
       posted: "10 days ago",
     },
-     {
+    {
       id: 15,
       title: "Business Development Executive (Field Visit Sales)",
       company: "Pjsofttech PVt Ltd",
@@ -168,10 +173,15 @@ const JobsPage = () => {
       salary: "₹ 24 to 30 K Per Months ",
       type: "Full-time",
       desc: "This is an entry-level position for freshers or candidates with up to one year of experience in client-facing role.",
-      tags: ["Lead Generation ", "Business Development", "sales", "Postsales Support"],
+      tags: [
+        "Lead Generation ",
+        "Business Development",
+        "sales",
+        "Postsales Support",
+      ],
       posted: "10 days ago",
     },
-     {
+    {
       id: 16,
       title: "Business Development Manager",
       company: "Pjsofttech PVt Ltd",
@@ -179,7 +189,12 @@ const JobsPage = () => {
       salary: "₹ 24 to 30 K Per Months ",
       type: "Full-time",
       desc: "This is an entry-level position for freshers or candidates with up to one year of experience in client-facing role.",
-      tags: ["Lead Generation ", "Business Development", "sales", "Postsales Support"],
+      tags: [
+        "Lead Generation ",
+        "Business Development",
+        "sales",
+        "Postsales Support",
+      ],
       posted: "10 days ago",
     },
     {
@@ -190,7 +205,13 @@ const JobsPage = () => {
       salary: "₹10 to 15 K Per Months ",
       type: "Full-time",
       desc: "Manage SEO (on/off-page) & Google Ads campaigns.",
-      tags: ["CorelDRAW ", "Adobe Illustrator", "Adobe Photoshop", "Canvas","SEO"],
+      tags: [
+        "CorelDRAW ",
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "Canvas",
+        "SEO",
+      ],
       posted: "2 days ago",
     },
     {
@@ -201,7 +222,13 @@ const JobsPage = () => {
       salary: "₹ 0 to 8K Per Months ",
       type: "Full-time",
       desc: "Manage SEO (on/off-page) & Google Ads campaigns.",
-      tags: ["CorelDRAW ", "Adobe Illustrator", "Adobe Photoshop", "Canvas","SEO"],
+      tags: [
+        "CorelDRAW ",
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "Canvas",
+        "SEO",
+      ],
       posted: "2 days ago",
     },
   ];
@@ -216,7 +243,6 @@ const JobsPage = () => {
     setSelectedJob(null);
   };
 
-
   return (
     <div className={styles.jobsPage}>
       {/* ===== HERO SECTION ===== */}
@@ -228,10 +254,14 @@ const JobsPage = () => {
             </div>
             <h1>We Are Hiring Top Talent In Pjsofttech </h1>
             <div className={styles.heroButtons}>
-              <button className={styles.btnPrimary}>Apply a Job – It's Free</button>
+              <button className={styles.btnPrimary}>
+                Apply a Job – It's Free
+              </button>
               <button
                 className={styles.btnOutline}
-                onClick={() => { window.location.href = "/contact-us"; }}
+                onClick={() => {
+                  window.location.href = "/contact-us";
+                }}
               >
                 Learn More
               </button>
@@ -285,8 +315,13 @@ const JobsPage = () => {
       {/* ===== POPUP MODAL ===== */}
       {showPopup && (
         <div className={styles.popupOverlay} onClick={closePopup}>
-          <div className={styles.popupCard} onClick={(e) => e.stopPropagation()}>
-            <button className={styles.closeBtn} onClick={closePopup}>✖</button>
+          <div
+            className={styles.popupCard}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button className={styles.closeBtn} onClick={closePopup}>
+              ✖
+            </button>
 
             <div className={styles.popupIcon}>
               <i className="fa-solid fa-envelope-open-text"></i>
@@ -324,7 +359,6 @@ const JobsPage = () => {
           </div>
         </div>
       )}
-
     </div>
   );
 };

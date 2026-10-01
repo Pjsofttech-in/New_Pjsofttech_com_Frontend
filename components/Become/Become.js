@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import "./Become.css";
 import Slider from "react-slick";
@@ -31,10 +32,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 const Become = () => {
   const [formData, setFormData] = useState({
     name: "",
-    bussinessName: "",
-    enquiryDate:"",
+    businessName: "",
     email: "",
-    contact: "",
+    phone: "",
     city: "",
   });
 
@@ -43,30 +43,31 @@ const Become = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+
+    setFormData((previousData) => ({
+      ...previousData,
+      [name]: value,
+    }));
+  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post(
+        "https://pjsofttech.com:16443/addPartner",
+        formData,
+        { headers: { "Content-Type": "multipart/form-data" } },
+      );
+
+      setModalMessage("Form submitted successfully!");
+      setShowModal(true);
+    } catch (error) {
+      console.error(error);
+      setModalMessage("Failed to submit the form");
+      setShowModal(true);
+    }
   };
 
- 
-
-  const handleSubmit = async (e) => {
-  e.preventDefault();
-  try {
-    const response = await axios.post(
-      "https://pjsofttech.com:16443/addPartner",
-      formData,
-      { headers: { "Content-Type": "multipart/form-data" } }
-    );
-
-    setModalMessage("Form submitted successfully!");
-    setShowModal(true);
-  } catch (error) {
-    console.error(error);
-    setModalMessage("Failed to submit the form");
-    setShowModal(true);
-  }
-};
-
-const [activeImage, setActiveImage] = useState(imgImplementation);
+  const [activeImage, setActiveImage] = useState(imgImplementation);
 
   const slickOptions = {
     dots: false, // Disable navigation dots
@@ -238,9 +239,7 @@ const [activeImage, setActiveImage] = useState(imgImplementation);
                 <p>{modalMessage}</p>
               </Modal.Body>
               <Modal.Footer className="custom-modal-footer">
-                <Button onClick={() => setShowModal(false)}>
-                  Close
-                </Button>
+                <Button onClick={() => setShowModal(false)}>Close</Button>
               </Modal.Footer>
             </Modal>
           </div>
@@ -257,24 +256,28 @@ const [activeImage, setActiveImage] = useState(imgImplementation);
             transition={{ duration: 0.6 }}
           >
             <h2 className="fw-bold fs-1 gradient-text">
-              Channel Partner Benefits for <span className="text-brand">PJSOFTTECH</span>
+              Channel Partner Benefits for{" "}
+              <span className="text-brand">PJSOFTTECH</span>
             </h2>
             <p className="fs-5 text-muted">
-              Essential Features of Our Partner Program that empower growth, profit, and innovation 🚀
+              Essential Features of Our Partner Program that empower growth,
+              profit, and innovation 🚀
             </p>
           </motion.div>
 
-           <motion.div
+          <motion.div
             className="text-center mb-5"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
             <h4 className="fw-bold text-success">
-              💼 0% Investment | 💸 High Earning | 🚀 10x Growth | 💰 Endless Profit | 🌟 Brand Association
+              💼 0% Investment | 💸 High Earning | 🚀 10x Growth | 💰 Endless
+              Profit | 🌟 Brand Association
             </h4>
             <p className="fw-semibold text-muted mt-2">
-              🌐 Expand Market | 🧠 Next-Gen IT | 🤝 Collaboration | ⚙ Zero Hassle | 🎓 Continuous Training
+              🌐 Expand Market | 🧠 Next-Gen IT | 🤝 Collaboration | ⚙ Zero
+              Hassle | 🎓 Continuous Training
             </p>
           </motion.div>
 
@@ -437,8 +440,6 @@ const [activeImage, setActiveImage] = useState(imgImplementation);
               </motion.div>
             ))}
           </div>
-
-         
         </div>
       </section>
 
@@ -599,7 +600,7 @@ const [activeImage, setActiveImage] = useState(imgImplementation);
         </div>
       </section>
 
-       {/* Become a partner  section 6 ***********************************/}
+      {/* Become a partner  section 6 ***********************************/}
       <section className="become-partner" id="onboarding">
         <div className="container">
           <div className="row justify-content-center">
@@ -707,7 +708,7 @@ const [activeImage, setActiveImage] = useState(imgImplementation);
         </div>
       </section>
 
-       {/* success stories section 4 *******************************/}
+      {/* success stories section 4 *******************************/}
       <section className="partner-testimonial" id="success-stories">
         <div className="container">
           <div className="row justify-content-center">
@@ -786,7 +787,7 @@ const [activeImage, setActiveImage] = useState(imgImplementation);
                     height: "100%",
                   }}
                 >
-                  <di v className="card-body">
+                  <div className="card-body">
                     <i className="fa-solid fa-quote-right" />
                     <p className="text-center">{testimonial.text}</p>
                     <p className="fw-bold text-center">{testimonial.quote}</p>
@@ -794,7 +795,7 @@ const [activeImage, setActiveImage] = useState(imgImplementation);
                       {testimonial.author}
                     </h5>
                     <p className="card-text text-center">{testimonial.since}</p>
-                  </di>
+                  </div>
                 </div>
               </div>
             ))}
@@ -1020,7 +1021,6 @@ const [activeImage, setActiveImage] = useState(imgImplementation);
           </div>
         </div>
       </section>
-
     </>
   );
 };

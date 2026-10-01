@@ -1,32 +1,30 @@
 ﻿import React from "react";
 import Link from "next/link";
-import styles from './Cards.module.css';
-import Button from '@mui/material/Button';
+import styles from "./Cards.module.css";
+import Button from "@mui/material/Button";
 
 const Cards = () => {
   const cardData = [
-     {
+    {
       title: "School Management Software",
       description:
         "The SMS module centralizes student data, including personal details, academic records, attendance, and behavior.",
       imageUrl:
         "https://www.pjsofttech.com/static/media/academy.69b57ad082c0345765ad.gif",
-      link: "/school-management-software",
+      link: "/school-new-management-system",
     },
     {
       title: "College Management Software",
       description:
         "College Management Software simplifies the admissions process by automating tasks such as inquiry management and application processing.",
-      imageUrl:
-        "https://eitpl.in/assets/img/service/lrn.gif",
+      imageUrl: "https://eitpl.in/assets/img/service/lrn.gif",
       link: "/college-management-software",
     },
     {
       title: "Academy Management Software",
       description:
         "The Academy Management Software is a comprehensive digital platform designed to streamline and automate all academic and administrative operations.",
-      imageUrl:
-        "https://mintbook.com/assetsNew/img/school.gif",
+      imageUrl: "https://mintbook.com/assetsNew/img/school.gif",
       link: "/academy-management-software",
     },
     {
@@ -37,7 +35,7 @@ const Cards = () => {
         "https://www.pjsofttech.com/static/media/institute%20new.cabe38874daf56786175.gif",
       link: "/institute-management-software",
     },
-     {
+    {
       title: "Company Management Software",
       description:
         "Our Company Management Software is an all-in-one digital solution designed to simplify and automate every aspect of business administration.",
@@ -45,7 +43,7 @@ const Cards = () => {
         "https://nexozia.com/assets/images/services-details/event-website-development.gif",
       link: "/company-management-system",
     },
-     
+
     {
       title: "Lead Management System",
       description:
@@ -58,10 +56,9 @@ const Cards = () => {
       title: "Income and Expenses Management System",
       description:
         "University Management Software (UMS) is a comprehensive solution designed to address the complex administrative and academic.",
-      imageUrl:
-        "https://jit.ac.in/assets/uploads/2022/05/ims-image-10.gif",
+      imageUrl: "https://jit.ac.in/assets/uploads/2022/05/ims-image-10.gif",
       link: "/income-expenses-management-system",
-    },   
+    },
     {
       title: "Employee Management System",
       description:
@@ -92,7 +89,7 @@ const Cards = () => {
         "HR Management Software is a comprehensive digital solution designed to streamline and automate all human resource operations within an organization.",
       imageUrl:
         "https://iiakerala.com/wp-content/uploads/2022/05/staffing-1.gif",
-      link: "/hr-management-system",      
+      link: "/hr-management-system",
     },
     {
       title: "Shipment Management System",
@@ -118,7 +115,7 @@ const Cards = () => {
         "https://i.pinimg.com/originals/0f/65/c2/0f65c227b3198b5e00e6f19a2b4712de.gif",
       link: "/project-management-system",
     },
-     
+
     {
       title: "Hostel Management System",
       description:
@@ -127,15 +124,14 @@ const Cards = () => {
         "https://s3.us-west-2.amazonaws.com/www.bookingninjas.com/img/illustration-2.svg",
       link: "/hostel-managment-system",
     },
-     {
+    {
       title: "Online Examination System",
       description:
         "An Online Examination System is a robust platform designed to conduct assessments, quizzes, and examinations remotely.",
-      imageUrl:
-        "https://mintbook.com/assetsNew/img/ams.gif",
+      imageUrl: "https://mintbook.com/assetsNew/img/ams.gif",
       link: "/online-examination-system",
     },
-     {
+    {
       title: "Attendance Management System",
       description:
         "An Attendance Management System automates and streamlines attendance tracking in educational institutions and organizations.",
@@ -151,7 +147,7 @@ const Cards = () => {
         "https://qualcampus.com/wp-content/uploads/2023/03/QualCampus-Smooth-Online-Admission-Process.gif",
       link: "/online-admission-system",
     },
-     {
+    {
       title: "Sales Management System",
       description:
         "Sales Management Software is an all-in-one digital solution designed to streamline your sales operations, improve team productivity, and boost overall business revenue.",
@@ -159,7 +155,7 @@ const Cards = () => {
         "https://www.pjsofttech.com/static/media/Esalesgif.20fedc49b10936e5a8dd.gif",
       link: "/sales-management-system",
     },
-     {
+    {
       title: "Classroom Management System",
       description:
         "Classroom management software (CMS) is a specialised tool (or set of tools) designed to assist teachers, instructors and educational institutions.",
@@ -167,7 +163,7 @@ const Cards = () => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8QkjPLJUUiqOOzJIR2yREddGdcPYP6WzMcg&s",
       link: "/classroom-management-system",
     },
-     {
+    {
       title: "TestSeries Management System",
       description:
         "Our Test Series Management Software is a comprehensive platform designed to help educational institutions, coaching centers, and training academies efficiently create, manage, and evaluate test series online or offline.",
@@ -176,7 +172,7 @@ const Cards = () => {
       link: "/test-series-management-system",
     },
 
-      {
+    {
       title: "Ecommerce Management System",
       description:
         "Our Ecommerce Management Software is a comprehensive solution designed to simplify and automate every aspect of your online business.",
@@ -185,7 +181,7 @@ const Cards = () => {
       link: "/ecommerce-management-system",
     },
 
-     {
+    {
       title: "Bookshop Management System",
       description:
         "A Bookshop Management Software is a specialised software system designed to support the business operations of a bookstore (physical, online, or hybrid).",
@@ -202,18 +198,26 @@ const Cards = () => {
         "https://mir-s3-cdn-cf.behance.net/project_modules/hd/26ecdb76340011.5c66974fa9a2b.gif",
       link: "/fees-management-system",
     },
-
   ];
 
   return (
     <div className={styles.cardsRow}>
-      {cardData.map((card) => ( 
+      {cardData.map((card) => (
         <div key={card.title} className={styles.card}>
-          <img src={card.imageUrl} alt={card.title} className={styles.cardImage} loading="lazy" />
+          <img
+            src={card.imageUrl}
+            alt={card.title}
+            className={styles.cardImage}
+            loading="lazy"
+          />
           <div className={styles.cardContent}>
             <h2>{card.title}</h2>
             <p className={styles.description}>{card.description}</p>
-            <Button component={Link} href={card.link} className={styles.readMore}>
+            <Button
+              component={Link}
+              href={card.link}
+              className={styles.readMore}
+            >
               Read More
             </Button>
           </div>
@@ -224,5 +228,3 @@ const Cards = () => {
 };
 
 export default Cards;
-
-

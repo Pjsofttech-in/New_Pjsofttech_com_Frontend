@@ -18,7 +18,6 @@ body {
   margin-right: 15px;
 }
 
-
 /* For Webkit-based browsers like Chrome and Safari */
 ::-webkit-scrollbar {
   width: 5px; /* Adjust this value to change the width */

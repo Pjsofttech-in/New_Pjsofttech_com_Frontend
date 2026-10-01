@@ -8,7 +8,7 @@ const solutionsData = {
     },
     {
       name: "School Management Software",
-      url: "https://www.pjsofttech.com/school-management-software",
+      url: "https://www.pjsofttech.com/school-new-management-system",
     },
     {
       name: "College Management Software",
@@ -204,7 +204,6 @@ export default function ChatbotWidget() {
       chatRef.current.scrollTop = chatRef.current.scrollHeight;
     }
   }, [messages, typing]);
-
 
   // Handle sending a message
   const sendMessage = async () => {
@@ -473,7 +472,7 @@ export default function ChatbotWidget() {
                 <div key={idx} style={{ marginBottom: 18 }}>
                   {msg.text}
                 </div>
-              )
+              ),
             )}
             {typing && (
               <div

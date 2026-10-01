@@ -15,12 +15,7 @@ import {
   ListItemText,
   Collapse,
 } from "@mui/material";
-import {
-  FaUserGraduate,
-  FaBook,
-  FaBuilding,
-  FaShopify,
-} from "react-icons/fa";
+import { FaUserGraduate, FaBook, FaBuilding, FaShopify } from "react-icons/fa";
 
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavDropdown, Row, Col } from "react-bootstrap";
@@ -64,7 +59,9 @@ const Navbar = () => {
   const [softwareDropdownOpen, setSoftwareDropdownOpen] = useState(false);
   const [companyDropdownOpen, setCompanyDropdownOpen] = useState(false);
   const [isHovered] = useState(false);
+
   let softwareTimeout, companyTimeout;
+
   const toggleMobileMenu = () => {
     setMobileOpen(!mobileOpen);
   };
@@ -117,7 +114,6 @@ const Navbar = () => {
       icon: <MdOutlineSchool />,
       path: "/academy-management-software",
     },
-
     {
       name: "University Management System",
       icon: <AiOutlineTeam />,
@@ -128,25 +124,21 @@ const Navbar = () => {
       icon: <FaBuilding />,
       path: "/company-management-system",
     },
-
     {
       name: "Lead Management System",
       icon: <MdOutlineContactPhone />,
-      path: "/Enquiry-management-software",
+      path: "/enquiry-management-software",
     },
-
     {
       name: "Income Expenses Management System",
       icon: <GiReceiveMoney />,
-      path: "/Income-Expenses-Management-System",
+      path: "/income-expenses-management-system",
     },
-
     {
       name: "Employee Management System",
       icon: <FaUserTie />,
       path: "/employee-management-system",
     },
-
     {
       name: "StudyPoint Management System",
       icon: <FaRegChartBar />,
@@ -230,12 +222,38 @@ const Navbar = () => {
   ];
 
   const company = [
-    { name: "Contact US", icon: <FaMoneyCheckAlt />, path: "/contact-page" },
-    { name: "Organization", icon: <CgOrganisation />, path: "/organization" },
-    { name: "Team", icon: <FaUsers />, path: "/team" },
-    { name: "Scholarship", icon: <FaMoneyCheckAlt />, path: "/freescholarship" },
-    { name: "About Us", icon: <FaMoneyCheckAlt />, path: "/about" },
-    { name: "Placement", icon: <FaUserGraduate />, path: "/career" }
+    {
+      name: "Contact US",
+      icon: <FaMoneyCheckAlt />,
+      path: "/contact-page",
+    },
+    {
+      name: "Organization",
+      icon: <CgOrganisation />,
+      path: "/organization",
+    },
+    {
+      name: "Team",
+      icon: <FaUsers />,
+      path: "/team",
+    },
+    {
+      name: "Scholarship",
+      icon: <FaMoneyCheckAlt />,
+      path: "/freescholarship",
+    },
+    {
+      name: "About Us",
+      icon: <FaMoneyCheckAlt />,
+      path: "/about",
+    },
+
+    // Placement route corrected
+    {
+      name: "Placement",
+      icon: <FaUserGraduate />,
+      path: "/career-post",
+    },
   ];
 
   return (
@@ -281,7 +299,6 @@ const Navbar = () => {
             maxWidth: "1000px",
             gap: 1.5,
             flexWrap: "wrap",
-            // transform: "translateX(-50px)", 
           }}
         >
           <Button
@@ -305,7 +322,6 @@ const Navbar = () => {
                 height: "3px",
                 backgroundColor: "#FFE066",
                 transition: "all 0.3s ease",
-                // transform: "translateX(-50%)",
               },
 
               "&:hover": {
@@ -321,90 +337,12 @@ const Navbar = () => {
             Home
           </Button>
 
-          {/* <Button
-            component={Link}
-            href="/about"
-            sx={{
-              position: "relative",
-              overflow: "hidden",
-              color: "white",
-              textTransform: "none",
-              fontSize: "16px",
-              backgroundColor: "transparent",
-              borderRadius: 0,
-              transition: "all 0.4s ease-in-out",
-
-              "&::after": {
-                content: '""',
-                position: "absolute",
-                bottom: 0,
-                left: "50%",
-                width: 0,
-                height: "3px",
-                backgroundColor: "#FFE066",
-                transition: "all 0.3s ease",
-                transform: "translateX(-50%)",
-              },
-
-              "&:hover": {
-                color: "white",
-                textShadow: "0 0 8px rgba(255, 255, 255, 0.5)",
-              },
-
-              "&:hover::after": {
-                width: "100%",
-              },
-            }}
-          >
-            About Us
-          </Button> */}
-
-
-          {/* 
-          <NavDropdown
-            title="SOFTWARES"
-            id="software-nav-dropdown"
-            className={`mega-menu ${isHovered ? "hovered" : ""}custom-dropdown`}
-            show={softwareDropdownOpen}
-            onClick={handleSoftwareDropdownToggle}
-            onMouseEnter={handleMouseEnterSoftware}
-            onMouseLeave={handleMouseLeaveSoftware}
-            onToggle={(isOpen) => setSoftwareDropdownOpen(isOpen)}
-            menuVariant=""
-          >
-            <Container>
-              <Row>
-                {services.map((service, index) => (
-                  <Col xs={12} sm={6} md={4} key={index}>
-                    <NavDropdown.Item
-                      as={Link}
-                      href={service.path}
-                      onClick={handleSoftwareDropdownToggle}
-                      sx={{
-                        borderRadius: "0",
-                        textTransform: "none",
-                        fontSize: "16px",
-                        backgroundColor: "transparent",
-                        "&:hover": {
-                          backgroundColor: "white",
-                          color: "rgb(38,157,215)",
-                          boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.1)",
-                        },
-                      }}
-                    >
-                      {service.name}
-                    </NavDropdown.Item>
-                  </Col>
-                ))}
-              </Row>
-            </Container>
-          </NavDropdown> */}
-
           <NavDropdown
             title="Softwares"
             id="software-nav-dropdown"
-            className={`mega-menu ${isHovered ? "hovered" : ""
-              } custom-dropdown`}
+            className={`mega-menu ${
+              isHovered ? "hovered" : ""
+            } custom-dropdown`}
             show={softwareDropdownOpen}
             onClick={handleSoftwareDropdownToggle}
             onMouseEnter={handleMouseEnterSoftware}
@@ -450,6 +388,7 @@ const Navbar = () => {
                       >
                         {service.icon}
                       </span>
+
                       <span>{service.name}</span>
                     </NavDropdown.Item>
                   </Col>
@@ -574,34 +513,6 @@ const Navbar = () => {
             Pricings
           </Button>
 
-          {/* <NavDropdown
-            title="COMPANY"
-            id="company-nav-dropdown"
-            className="company-menu"
-            onMouseEnter={handleMouseEnterCompany}
-            onMouseLeave={handleMouseLeaveCompany}
-            show={companyDropdownOpen}
-            onToggle={(isOpen) => setCompanyDropdownOpen(isOpen)}
-            menu
-            Variant=""
-          >
-            <Container>
-              <Row>
-                {company.map((company, index) => (
-                  <NavDropdown.Item
-                    key={index}
-                    as={Link}
-                    href={company.path}
-                    onClick={handleCompanyDropdownToggle}
-                    style={{ color: "black" }}
-                  >
-                    {company.name}
-                  </NavDropdown.Item>
-                ))}
-              </Row>
-            </Container>
-          </NavDropdown> */}
-
           <Button
             component={Link}
             href="/become"
@@ -614,6 +525,7 @@ const Navbar = () => {
               backgroundColor: "transparent",
               borderRadius: 0,
               transition: "all 0.4s ease-in-out",
+
               "&::after": {
                 content: '""',
                 position: "absolute",
@@ -641,7 +553,7 @@ const Navbar = () => {
 
           <Button
             component={Link}
-            href="/Career-post"
+            href="/career-post"
             sx={{
               position: "relative",
               overflow: "hidden",
@@ -783,70 +695,13 @@ const Navbar = () => {
                     >
                       {company.icon}
                     </span>
+
                     <span>{company.name}</span>
                   </NavDropdown.Item>
                 ))}
               </Row>
             </Container>
           </NavDropdown>
-
-          {/* <Button
-            component={Link}
-            href="/courseList"
-            sx={{
-              position: "relative",
-              overflow: "hidden",
-              color: "white",
-              textTransform: "none",
-              fontSize: "16px",
-              backgroundColor: "transparent",
-              borderRadius: 0,
-              transition: "all 0.4s ease-in-out",
-
-              "&::after": {
-                content: '""',
-                position: "absolute",
-                bottom: 0,
-                left: "50%",
-                width: 0,
-                height: "3px",
-                backgroundColor: "#FFBF00",
-                transition: "all 0.3s ease",
-                transform: "translateX(-50%)",
-              },
-
-              "&:hover": {
-                color: "white",
-                textShadow: "0 0 6px rgba(255, 191, 0, 0.5)",
-              },
-
-              "&:hover::after": {
-                width: "100%",
-              },
-            }}
-          >
-            Courses
-          </Button> */}
-
-          {/* <Button
-            component={Link}
-            href="/pricing"
-            sx={{
-              color: "white",
-              fontWeight: "bold",
-              borderRadius: "",
-              textTransform: "none",
-              fontSize: "16px",
-              backgroundColor: "transparent",
-              "&:hover": {
-                backgroundColor: "white",
-                color: "rgb(38,157,215)",
-                boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.1)",
-              },
-            }}
-          >
-            <b> Pricing</b>
-          </Button> */}
         </Box>
 
         {/* Right Section: Buttons */}
@@ -902,6 +757,7 @@ const Navbar = () => {
         </Box>
 
         {/* Mobile Menu Icon */}
+
         <Box sx={{ display: { xs: "flex", md: "none" } }}>
           <IconButton
             size="large"
@@ -913,6 +769,8 @@ const Navbar = () => {
             <MenuIcon />
           </IconButton>
         </Box>
+
+        {/* Mobile Bottom Navigation */}
 
         <Box
           sx={{
@@ -937,6 +795,7 @@ const Navbar = () => {
           >
             <FaHome size={24} />
           </IconButton>
+
           <IconButton
             component={Link}
             href="/solutions"
@@ -944,6 +803,7 @@ const Navbar = () => {
           >
             <AiOutlineSolution size={24} />
           </IconButton>
+
           <IconButton
             component={Link}
             href="/pricing"
@@ -951,6 +811,7 @@ const Navbar = () => {
           >
             <RiPriceTag2Line size={24} />
           </IconButton>
+
           <IconButton
             component={Link}
             href="/about"
@@ -958,6 +819,7 @@ const Navbar = () => {
           >
             <FcAbout size={24} />
           </IconButton>
+
           <IconButton
             component={Link}
             href="/blogs"
@@ -969,6 +831,7 @@ const Navbar = () => {
       </Toolbar>
 
       {/* Drawer for Mobile Menu */}
+
       <Drawer anchor="right" open={mobileOpen} onClose={toggleMobileMenu}>
         <Box
           sx={{
@@ -988,7 +851,11 @@ const Navbar = () => {
           >
             <ListItem button component={Link} href="/">
               <div
-                style={{ display: "flex", alignItems: "center", gap: "18px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "18px",
+                }}
               >
                 <IoMdHome size={22} />
                 <ListItemText primary="Home" />
@@ -997,10 +864,16 @@ const Navbar = () => {
 
             <ListItem button onClick={handleSoftwareDropdownToggle}>
               <div
-                style={{ display: "flex", alignItems: "center", gap: "18px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "18px",
+                }}
               >
-                <SiBmcsoftware size={20} /> <ListItemText primary="Softwares" />
+                <SiBmcsoftware size={20} />
+                <ListItemText primary="Softwares" />
               </div>
+
               {softwareDropdownOpen ? <ExpandLess /> : <ExpandMore />}
             </ListItem>
 
@@ -1025,7 +898,11 @@ const Navbar = () => {
 
             <ListItem button component={Link} href="/solutions">
               <div
-                style={{ display: "flex", alignItems: "center", gap: "18px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "18px",
+                }}
               >
                 <AiOutlineSolution size={20} />
                 <ListItemText primary="Solutions" />
@@ -1034,7 +911,11 @@ const Navbar = () => {
 
             <ListItem button component={Link} href="/blogs">
               <div
-                style={{ display: "flex", alignItems: "center", gap: "18px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "18px",
+                }}
               >
                 <TbLogs size={21} />
                 <ListItemText primary="Blogs" />
@@ -1049,34 +930,53 @@ const Navbar = () => {
               rel="noopener noreferrer"
             >
               <div
-                style={{ display: "flex", alignItems: "center", gap: "18px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "18px",
+                }}
               >
-                <BiSolidOffer size={21} /> <ListItemText primary="Plan" />
+                <BiSolidOffer size={21} />
+                <ListItemText primary="Plan" />
               </div>
             </ListItem>
 
             <ListItem button component={Link} href="/about">
               <div
-                style={{ display: "flex", alignItems: "center", gap: "18px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "18px",
+                }}
               >
-                <BiCommentDetail size={21} /> <ListItemText primary="About" />
+                <BiCommentDetail size={21} />
+                <ListItemText primary="About" />
               </div>
             </ListItem>
 
             <ListItem button component={Link} href="/contact-us">
               <div
-                style={{ display: "flex", alignItems: "center", gap: "18px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "18px",
+                }}
               >
-                <MdContactPage size={20} />{" "}
+                <MdContactPage size={20} />
                 <ListItemText primary="Contact Us" />
               </div>
             </ListItem>
 
             <ListItem button onClick={handleCompanyDropdownToggle}>
               <div
-                style={{ display: "flex", alignItems: "center", gap: "18px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "18px",
+                }}
               >
-                <CgOrganisation size={21} /> <ListItemText primary="Company" />
+                <CgOrganisation size={21} />
+                <ListItemText primary="Company" />
                 {companyDropdownOpen ? <ExpandLess /> : <ExpandMore />}
               </div>
             </ListItem>
@@ -1097,21 +997,8 @@ const Navbar = () => {
                     />
                   </ListItem>
                 ))}
-
               </List>
             </Collapse>
-
-            {/* <ListItem button component={Link} href="/courseList">
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "18px",
-                }}
-              >
-                <FaDiscourse size={19} /> <ListItemText primary="Courses" />
-              </div>
-            </ListItem> */}
 
             <div
               style={{
@@ -1124,16 +1011,16 @@ const Navbar = () => {
                 href="/contact-us"
                 variant="contained"
                 sx={{
-                  backgroundColor: "rgb(232, 186, 48)", // Original yellowish-gold
+                  backgroundColor: "rgb(232, 186, 48)",
                   color: "white",
                   fontWeight: "bold",
                   justifyContent: "center",
                   marginLeft: "15px",
                   transition: "all 0.3s ease",
                   "&:hover": {
-                    backgroundColor: "orange", // Hover effect with orange
-                    boxShadow: "0 4px 20px rgba(255, 165, 0, 0.5)", // Optional glowing orange effect
-                    transform: "scale(1.05)", // Slight zoom-in effect
+                    backgroundColor: "orange",
+                    boxShadow: "0 4px 20px rgba(255, 165, 0, 0.5)",
+                    transform: "scale(1.05)",
                   },
                 }}
               >
@@ -1145,7 +1032,7 @@ const Navbar = () => {
                 href="https://pjsofttech.in/"
                 variant="outlined"
                 sx={{
-                  backgroundColor: "rgb(232, 186, 48);",
+                  backgroundColor: "rgb(232, 186, 48)",
                   color: "white",
                   fontWeight: "bold",
                   justifyContent: "center",
@@ -1158,10 +1045,8 @@ const Navbar = () => {
           </List>
         </Box>
       </Drawer>
-
     </AppBar>
   );
 };
 
 export default Navbar;
-
